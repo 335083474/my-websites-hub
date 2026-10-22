@@ -1,0 +1,2567 @@
+{
+  "checkedAt": "2026-10-22T06:03:43.419000+00:00",
+  "owner": "335083474",
+  "projects": [
+    {
+      "id": "quant-dashboard",
+      "title": "量化策略管理器",
+      "category": "量化研究",
+      "description": "策略账户、净值与每日检查。",
+      "url": "https://335083474.github.io/quant-dashboard/",
+      "repo": "https://github.com/335083474/quant-dashboard",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [
+        {
+          "title": "每日检查",
+          "url": "https://335083474.github.io/quant-dashboard/daily-checks/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "宏观观察",
+          "url": "https://335083474.github.io/quant-dashboard/macro/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "宏观快扫 · 2026-10-22"
+        },
+        {
+          "title": "宏观观察 · 2026-10-22",
+          "url": "https://335083474.github.io/quant-dashboard/macro/macro_2026-10-22.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "宏观快扫 · 2026-10-22"
+        },
+        {
+          "title": "三低转债 · 退出研究",
+          "url": "https://335083474.github.io/quant-dashboard/reports/cb3-exit-study.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "三低退出优化对照"
+        },
+        {
+          "title": "三低转债 · 安全性比较",
+          "url": "https://335083474.github.io/quant-dashboard/reports/cb3-safety-comparison.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "三低补检查对比"
+        },
+        {
+          "title": "strategies / bt2e cb strict 3low paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/bt2e_cb_strict_3low_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / bt2e cb strict 3low risk exit paper v2",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/bt2e_cb_strict_3low_risk_exit_paper_v2/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / bt2e etf correlation trend paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/bt2e_etf_correlation_trend_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / bt2e pb turnaround cap10 paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/bt2e_pb_turnaround_cap10_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / bt2e st gao v2c ma20timing alla paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/bt2e_st_gao_v2c_ma20timing_alla_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / bt2e st xie v6 cooldown paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/bt2e_st_xie_v6_cooldown_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / cb multifactor expanded1189 ic20 ir5 r5 paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/cb_multifactor_expanded1189_ic20_ir5_r5_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / cb multifactor expanded1189 ic5 ir5 r20 paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/cb_multifactor_expanded1189_ic5_ir5_r20_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / emotion80 v7 paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/emotion80_v7_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / ic5 ir5 r20 paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/ic5_ir5_r20_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / jinyuan control paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/jinyuan_control_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / microcap ic20 r20 paper v2",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/microcap_ic20_r20_paper_v2/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / microcap ic20 r20 reentry c paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/microcap_ic20_r20_reentry_c_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / microcap ic20 r20 reentry c paper v3 strict5",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/microcap_ic20_r20_reentry_c_paper_v3_strict5/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / shuoshi v43 aligned paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/shuoshi_v43_aligned_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        },
+        {
+          "title": "strategies / st funds event risk observation paper v1",
+          "url": "https://335083474.github.io/quant-dashboard/strategies/st_funds_event_risk_observation_paper_v1/",
+          "kind": "strategy",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "量化策略管理器"
+        }
+      ],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "量化策略管理器"
+    },
+    {
+      "id": "signal-plaza-pages",
+      "title": "信号广场",
+      "category": "量化研究",
+      "description": "市场环境、指标信号与研究工具。",
+      "url": "https://335083474.github.io/signal-plaza-pages/",
+      "repo": "https://github.com/335083474/signal-plaza-pages",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [
+        {
+          "title": "异动观察",
+          "url": "https://335083474.github.io/signal-plaza-pages/anomalies/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "数据管理",
+          "url": "https://335083474.github.io/signal-plaza-pages/data-management/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "指标注册表",
+          "url": "https://335083474.github.io/signal-plaza-pages/indicator-registry/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "研究资料库",
+          "url": "https://335083474.github.io/signal-plaza-pages/library/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "市场环境",
+          "url": "https://335083474.github.io/signal-plaza-pages/market-environment/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "我的工具",
+          "url": "https://335083474.github.io/signal-plaza-pages/my-tools/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "叙事研究指南",
+          "url": "https://335083474.github.io/signal-plaza-pages/narrative-skill-guide/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "穿透叙事 Skill：六步导读"
+        },
+        {
+          "title": "Pro API",
+          "url": "https://335083474.github.io/signal-plaza-pages/pro-api/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "研究实验室",
+          "url": "https://335083474.github.io/signal-plaza-pages/research-lab/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "信号共振",
+          "url": "https://335083474.github.io/signal-plaza-pages/resonance/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "信号统计",
+          "url": "https://335083474.github.io/signal-plaza-pages/signal-stats/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "历史快照",
+          "url": "https://335083474.github.io/signal-plaza-pages/snapshot-before-live/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "个股全景",
+          "url": "https://335083474.github.io/signal-plaza-pages/stock-panorama/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "个股档案",
+          "url": "https://335083474.github.io/signal-plaza-pages/stock-profile/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "策略阶梯",
+          "url": "https://335083474.github.io/signal-plaza-pages/strategy-ladder/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        },
+        {
+          "title": "Signal Plaza · Sites 入口",
+          "url": "https://signal-plaza.liuq75061.chatgpt.site/",
+          "kind": "alternate",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "信号广场 · Signal Plaza"
+        }
+      ],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "信号广场 · Signal Plaza"
+    },
+    {
+      "id": "trend-temperature-dashboard",
+      "title": "趋势温度观察台",
+      "category": "量化研究",
+      "description": "历史趋势温度、价格参考与技术指标。",
+      "url": "https://335083474.github.io/trend-temperature-dashboard/",
+      "repo": "https://github.com/335083474/trend-temperature-dashboard",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "趋势温度观察台"
+    },
+    {
+      "id": "midnight-theatre",
+      "title": "午夜剧场 · AI 跑团",
+      "category": "AI 与创作",
+      "description": "克苏鲁跑团、调查存档与创作者工作台。",
+      "url": "https://335083474.github.io/midnight-theatre/",
+      "repo": "https://github.com/335083474/midnight-theatre",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "午夜剧场 · 克苏鲁跑团"
+    },
+    {
+      "id": "ai-photographer",
+      "title": "Light Isle · AI 摄影师",
+      "category": "AI 与创作",
+      "description": "AI 摄影体验与前后对比预览。",
+      "url": "https://335083474.github.io/ai-photographer/",
+      "repo": "https://github.com/335083474/ai-photographer",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [
+        {
+          "title": "test-lab.html",
+          "url": "https://335083474.github.io/ai-photographer/test-lab.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "修图测试室 · 光屿 AI Photographer"
+        },
+        {
+          "title": "versions / editorial-v1",
+          "url": "https://335083474.github.io/ai-photographer/versions/editorial-v1/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "光屿 · AI Photographer — 让照片，更值得喜欢"
+        },
+        {
+          "title": "versions / editorial-v1 / test-lab.html",
+          "url": "https://335083474.github.io/ai-photographer/versions/editorial-v1/test-lab.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "修图测试室 · 光屿 AI Photographer"
+        }
+      ],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "光屿 AI 摄影师 · 让日常，多一点出片"
+    },
+    {
+      "id": "game-ui-skills",
+      "title": "游戏 UI 实验室",
+      "category": "游戏与体验",
+      "description": "游戏界面参考、交互研究与设计实验。",
+      "url": "https://335083474.github.io/game-ui-skills/",
+      "repo": "https://github.com/335083474/game-ui-skills",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [
+        {
+          "title": "labs / ace-attorney",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ace-attorney/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "逆转裁判 123 · Game UI Skill"
+        },
+        {
+          "title": "labs / ace-attorney / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ace-attorney/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Court record · isolated primitives"
+        },
+        {
+          "title": "labs / ace-attorney / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ace-attorney/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Night Ferry Record — Courtroom Study"
+        },
+        {
+          "title": "labs / animal-crossing",
+          "url": "https://335083474.github.io/game-ui-skills/labs/animal-crossing/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "集合啦！动物森友会 · Game UI Skill"
+        },
+        {
+          "title": "labs / animal-crossing / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/animal-crossing/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Animal Crossing: New Horizons UI · Component specimens"
+        },
+        {
+          "title": "labs / animal-crossing / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/animal-crossing/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Clover Cay · Island notebook"
+        },
+        {
+          "title": "labs / balatro",
+          "url": "https://335083474.github.io/game-ui-skills/labs/balatro/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Balatro 风格 Skill · 五个交互界面与泛化测试"
+        },
+        {
+          "title": "labs / balatro / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/balatro/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Balatro UI — Component specimens"
+        },
+        {
+          "title": "labs / balatro / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/balatro/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Lucky Trail — Reward"
+        },
+        {
+          "title": "labs / balatro / run-02",
+          "url": "https://335083474.github.io/game-ui-skills/labs/balatro/run-02/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "The Last Table — Conversation & Settings"
+        },
+        {
+          "title": "labs / banner-saga",
+          "url": "https://335083474.github.io/game-ui-skills/labs/banner-saga/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "旗帜的传说 · Game UI Skill"
+        },
+        {
+          "title": "labs / banner-saga / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/banner-saga/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Nordic hand-painted travel and war UI — component specimens"
+        },
+        {
+          "title": "labs / banner-saga / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/banner-saga/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Ashwater March — Caravan record"
+        },
+        {
+          "title": "labs / bioshock",
+          "url": "https://335083474.github.io/game-ui-skills/labs/bioshock/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "生化奇兵 · Game UI Skill"
+        },
+        {
+          "title": "labs / bioshock / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/bioshock/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Art Deco machine — component specimens"
+        },
+        {
+          "title": "labs / bioshock / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/bioshock/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "BioShock — Machine Access"
+        },
+        {
+          "title": "labs / borderlands-2",
+          "url": "https://335083474.github.io/game-ui-skills/labs/borderlands-2/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "无主之地 2 · Game UI Skill"
+        },
+        {
+          "title": "labs / borderlands-2 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/borderlands-2/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Inked loot catalogue · isolated primitives"
+        },
+        {
+          "title": "labs / borderlands-2 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/borderlands-2/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Scrap Ledger — Inked Loot Study"
+        },
+        {
+          "title": "labs / chrono-trigger",
+          "url": "https://335083474.github.io/game-ui-skills/labs/chrono-trigger/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "时空之轮 · Game UI Skill"
+        },
+        {
+          "title": "labs / chrono-trigger / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/chrono-trigger/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Chrono Trigger — component specimens"
+        },
+        {
+          "title": "labs / chrono-trigger / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/chrono-trigger/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Blue Hour Expedition · UI Study"
+        },
+        {
+          "title": "labs / civilization-vi",
+          "url": "https://335083474.github.io/game-ui-skills/labs/civilization-vi/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "文明 VI · Game UI Skill"
+        },
+        {
+          "title": "labs / civilization-vi / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/civilization-vi/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cartographic strategy — component specimens"
+        },
+        {
+          "title": "labs / civilization-vi / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/civilization-vi/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Civilization VI — Rivermouth Map Table"
+        },
+        {
+          "title": "labs / classic-skills",
+          "url": "https://335083474.github.io/game-ui-skills/labs/classic-skills/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "经典三套 Skill · 九个交互界面"
+        },
+        {
+          "title": "labs / classics",
+          "url": "https://335083474.github.io/game-ui-skills/labs/classics/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "经典游戏风格研究 · Game UI Skills"
+        },
+        {
+          "title": "labs / cogmind",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cogmind/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cogmind · Game UI Skill"
+        },
+        {
+          "title": "labs / cogmind / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cogmind/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cogmind · ASCII interface component plate"
+        },
+        {
+          "title": "labs / cogmind / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cogmind/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cogmind · Glyph Terminal Study"
+        },
+        {
+          "title": "labs / cuphead",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cuphead/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "茶杯头 · Game UI Skill"
+        },
+        {
+          "title": "labs / cuphead / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cuphead/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "1930s rubber-hose cartoon game UI specimens"
+        },
+        {
+          "title": "labs / cuphead / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cuphead/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "The Laughing Marquee — Loadout"
+        },
+        {
+          "title": "labs / curse-monkey-island",
+          "url": "https://335083474.github.io/game-ui-skills/labs/curse-monkey-island/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "猴岛的诅咒 · Game UI Skill"
+        },
+        {
+          "title": "labs / curse-monkey-island / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/curse-monkey-island/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hand-painted pirate-cartoon adventure UI specimens"
+        },
+        {
+          "title": "labs / curse-monkey-island / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/curse-monkey-island/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Morrow Cove — pirate-cartoon UI usage test"
+        },
+        {
+          "title": "labs / cyberpunk-2077",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cyberpunk-2077/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "赛博朋克 2077 · Game UI Skill"
+        },
+        {
+          "title": "labs / cyberpunk-2077 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cyberpunk-2077/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cyberpunk 2077 — component specimens"
+        },
+        {
+          "title": "labs / cyberpunk-2077 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/cyberpunk-2077/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Night City · Street Diagnostics"
+        },
+        {
+          "title": "labs / danganronpa",
+          "url": "https://335083474.github.io/game-ui-skills/labs/danganronpa/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "弹丸论破 · Game UI Skill"
+        },
+        {
+          "title": "labs / danganronpa / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/danganronpa/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Pop trial · isolated primitives"
+        },
+        {
+          "title": "labs / danganronpa / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/danganronpa/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Case Index — Pop Trial Study"
+        },
+        {
+          "title": "labs / darkest-dungeon",
+          "url": "https://335083474.github.io/game-ui-skills/labs/darkest-dungeon/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "暗黑地牢 · Game UI Skill"
+        },
+        {
+          "title": "labs / darkest-dungeon / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/darkest-dungeon/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Darkest Dungeon UI — component specimens"
+        },
+        {
+          "title": "labs / darkest-dungeon / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/darkest-dungeon/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Darkest Dungeon UI Study — Expedition Ledger"
+        },
+        {
+          "title": "labs / dead-space",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dead-space/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "死亡空间 · Game UI Skill"
+        },
+        {
+          "title": "labs / dead-space / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dead-space/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Suit Link — diegetic UI specimens"
+        },
+        {
+          "title": "labs / dead-space / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dead-space/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Suit Link — Dead Space (2023) UI study"
+        },
+        {
+          "title": "labs / diablo-ii",
+          "url": "https://335083474.github.io/game-ui-skills/labs/diablo-ii/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "暗黑 II风格 Skill · 三个交互界面"
+        },
+        {
+          "title": "labs / diablo-ii / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/diablo-ii/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Diablo II classic — component specimens"
+        },
+        {
+          "title": "labs / diablo-ii / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/diablo-ii/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Ashen Watch · Classic Menu Study"
+        },
+        {
+          "title": "labs / disco-elysium",
+          "url": "https://335083474.github.io/game-ui-skills/labs/disco-elysium/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "极乐迪斯科 · Game UI Skill"
+        },
+        {
+          "title": "labs / disco-elysium / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/disco-elysium/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Literary detective · isolated primitives"
+        },
+        {
+          "title": "labs / disco-elysium / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/disco-elysium/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Low Tide Folio — Literary Detective Study"
+        },
+        {
+          "title": "labs / dont-starve",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dont-starve/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "饥荒 · Game UI Skill"
+        },
+        {
+          "title": "labs / dont-starve / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dont-starve/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Don’t Starve — editable component specimen"
+        },
+        {
+          "title": "labs / dont-starve / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dont-starve/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Don’t Starve — Independent UI Study"
+        },
+        {
+          "title": "labs / dusk",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dusk/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "DUSK · Game UI Skill"
+        },
+        {
+          "title": "labs / dusk / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dusk/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "DUSK — component specimens"
+        },
+        {
+          "title": "labs / dusk / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/dusk/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "DUSK — Corridor Study"
+        },
+        {
+          "title": "labs / earthbound",
+          "url": "https://335083474.github.io/game-ui-skills/labs/earthbound/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "EarthBound · Game UI Skill"
+        },
+        {
+          "title": "labs / earthbound / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/earthbound/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "EarthBound — component specimens"
+        },
+        {
+          "title": "labs / earthbound / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/earthbound/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Neighborhood Signal · UI Study"
+        },
+        {
+          "title": "labs / expansion",
+          "url": "https://335083474.github.io/game-ui-skills/labs/expansion/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "64 种游戏风格 · Luna Skill 实验"
+        },
+        {
+          "title": "labs / fallout-2",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fallout-2/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "辐射 2 · Game UI Skill"
+        },
+        {
+          "title": "labs / fallout-2 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fallout-2/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Fallout 2 — component specimens"
+        },
+        {
+          "title": "labs / fallout-2 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fallout-2/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Field Terminal · Character and Barter Study"
+        },
+        {
+          "title": "labs / fidelity-dot / ace-attorney-2019-r1 / independent-submission",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/ace-attorney-2019-r1/independent-submission/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "证物提交确认 · AA2019-submission-repair-r1"
+        },
+        {
+          "title": "labs / fidelity-dot / ace-attorney-2019-r1",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/ace-attorney-2019-r1/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Ace Attorney 2019 HD · 可编辑参考 UI"
+        },
+        {
+          "title": "labs / fidelity-dot / ace-attorney-2019-r1 / suite",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/ace-attorney-2019-r1/suite/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "AA2019-editable-v0.4 · Evidence research candidate"
+        },
+        {
+          "title": "labs / fidelity-dot / ace-attorney-2019-r1 / suite / profiles.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/ace-attorney-2019-r1/suite/profiles.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "AA2019-profiles-v0.4 · Profiles research candidate"
+        },
+        {
+          "title": "labs / fidelity-dot / animal-crossing-2020-r1 / independent-delivery / delivery.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/animal-crossing-2020-r1/independent-delivery/delivery.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "岛民委托交付清单 · 独立功能研究演示"
+        },
+        {
+          "title": "labs / fidelity-dot / animal-crossing-2020-r1 / independent-delivery",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/animal-crossing-2020-r1/independent-delivery/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "ACNH-pockets-v0.3 · Research candidate"
+        },
+        {
+          "title": "labs / fidelity-dot / animal-crossing-2020-r1 / independent-delivery / shop.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/animal-crossing-2020-r1/independent-delivery/shop.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "ACNH shop candidate v0.1"
+        },
+        {
+          "title": "labs / fidelity-dot / animal-crossing-2020-r1",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/animal-crossing-2020-r1/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Animal Crossing 2020 · 可编辑参考 UI"
+        },
+        {
+          "title": "labs / fidelity-dot / animal-crossing-2020-r1 / suite",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/animal-crossing-2020-r1/suite/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "ACNH-pockets-v0.3 · Research candidate"
+        },
+        {
+          "title": "labs / fidelity-dot / animal-crossing-2020-r1 / suite / shop.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/animal-crossing-2020-r1/suite/shop.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "ACNH shop candidate v0.1"
+        },
+        {
+          "title": "labs / fidelity-dot / hollow-knight-2017-r1 / independent-expedition / expedition.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/hollow-knight-2017-r1/independent-expedition/expedition.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "远征结算 · 独立研究演示"
+        },
+        {
+          "title": "labs / fidelity-dot / hollow-knight-2017-r1",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/hollow-knight-2017-r1/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hollow Knight 2017 · 可编辑参考 UI"
+        },
+        {
+          "title": "labs / fidelity-dot / hollow-knight-2017-r1 / suite",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/hollow-knight-2017-r1/suite/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "HK editable v0.2 — research draft"
+        },
+        {
+          "title": "labs / fidelity-dot / hollow-knight-2017-r1 / suite / inventory.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/hollow-knight-2017-r1/suite/inventory.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Inventory-v0.1 — research draft"
+        },
+        {
+          "title": "labs / fidelity-dot / hollow-knight-2017-r1 / suite / pause-options.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/hollow-knight-2017-r1/suite/pause-options.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Pause & Options — research demonstration"
+        },
+        {
+          "title": "labs / fidelity-dot / hollow-knight-2017-r1 / suite / save-select.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/hollow-knight-2017-r1/suite/save-select.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Save Selection — research prototype"
+        },
+        {
+          "title": "labs / fidelity-dot",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": ""
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / balatro-v3-study",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/balatro-v3-study/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Balatro shop representative v3"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / balatro-v4-candidate / collection.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/balatro-v4-candidate/collection.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Balatro component candidate v4 — collection"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / balatro-v4-candidate",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/balatro-v4-candidate/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Balatro component candidate v4 — shop"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / balatro-v4-candidate / shop.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/balatro-v4-candidate/shop.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Balatro component candidate v4 — shop"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / hades-v2.10 / components.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/hades-v2.10/components.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "v2.10 required components"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / hades-v2.10",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/hades-v2.10/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hades v2.10 candidate"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / hades-v2.10 / overview.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/hades-v2.10/overview.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Collected boons overview v1.2 draft"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / hades-v2.10 / prototype.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/hades-v2.10/prototype.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hades component laboratory"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / hades-v2.10 / scene.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/hades-v2.10/scene.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hades 16:9 DOM composition draft"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / independent-reward-zelda-v5",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/independent-reward-zelda-v5/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Forest Cache — Reward Choice"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / independent-upgrade-v2.10 / customization.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/independent-upgrade-v2.10/customization.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Boon Upgrade Preview · Independent Customer"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / independent-upgrade-v2.10",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/independent-upgrade-v2.10/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Boon Upgrade Preview · Independent Customer"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "最新复查样品 · Game UI"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / zelda-skill-v5 / equipment.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/zelda-skill-v5/equipment.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Zelda-style v5 - equipment"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / zelda-skill-v5",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/zelda-skill-v5/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Zelda v5 examples"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / zelda-skill-v5 / inventory.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/zelda-skill-v5/inventory.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Zelda-style v5 - inventory"
+        },
+        {
+          "title": "labs / fidelity-dot / overnight / zelda-skill-v5 / tests / browser-harness.html",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity-dot/overnight/zelda-skill-v5/tests/browser-harness.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Recipient-run runtime checks"
+        },
+        {
+          "title": "labs / fidelity",
+          "url": "https://335083474.github.io/game-ui-skills/labs/fidelity/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": ""
+        },
+        {
+          "title": "labs / final-fantasy-vii",
+          "url": "https://335083474.github.io/game-ui-skills/labs/final-fantasy-vii/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "FFVII风格 Skill · 三个交互界面"
+        },
+        {
+          "title": "labs / final-fantasy-vii / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/final-fantasy-vii/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Original FFVII · isolated primitive studies"
+        },
+        {
+          "title": "labs / final-fantasy-vii / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/final-fantasy-vii/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Freight Yard · Blue menu demo"
+        },
+        {
+          "title": "labs / frostpunk",
+          "url": "https://335083474.github.io/game-ui-skills/labs/frostpunk/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "冰汽时代 · Game UI Skill"
+        },
+        {
+          "title": "labs / frostpunk / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/frostpunk/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cold Industry — component specimens"
+        },
+        {
+          "title": "labs / frostpunk / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/frostpunk/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Frostpunk — City Ledger"
+        },
+        {
+          "title": "labs / ftl",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ftl/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "超越光速 · Game UI Skill"
+        },
+        {
+          "title": "labs / ftl / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ftl/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "FTL Ship Systems — component specimens"
+        },
+        {
+          "title": "labs / ftl / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ftl/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "FTL — Wayfarer Systems"
+        },
+        {
+          "title": "labs / generalization",
+          "url": "https://335083474.github.io/game-ui-skills/labs/generalization/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI · 对话与设置泛化测试"
+        },
+        {
+          "title": "labs / genshin-impact",
+          "url": "https://335083474.github.io/game-ui-skills/labs/genshin-impact/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "原神 · Game UI Skill"
+        },
+        {
+          "title": "labs / genshin-impact / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/genshin-impact/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Genshin Impact — editable component specimen"
+        },
+        {
+          "title": "labs / genshin-impact / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/genshin-impact/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Genshin Impact — Independent UI Study"
+        },
+        {
+          "title": "labs / gris",
+          "url": "https://335083474.github.io/game-ui-skills/labs/gris/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "GRIS · Game UI Skill"
+        },
+        {
+          "title": "labs / gris / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/gris/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Watercolor narrative UI specimens"
+        },
+        {
+          "title": "labs / gris / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/gris/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "GRIS · Color held in open space"
+        },
+        {
+          "title": "labs / hades",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hades/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "哈迪斯 · Game UI Skill"
+        },
+        {
+          "title": "labs / hades / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hades/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hades — editable component specimen"
+        },
+        {
+          "title": "labs / hades / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hades/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hades — Independent UI Study"
+        },
+        {
+          "title": "labs / her-story",
+          "url": "https://335083474.github.io/game-ui-skills/labs/her-story/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "她的故事 · Game UI Skill"
+        },
+        {
+          "title": "labs / her-story / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/her-story/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Her Story · Archive UI component plate"
+        },
+        {
+          "title": "labs / her-story / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/her-story/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Case 08 · Archive Desk"
+        },
+        {
+          "title": "labs / heroes-iii",
+          "url": "https://335083474.github.io/game-ui-skills/labs/heroes-iii/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "魔法门之英雄无敌 III · Game UI Skill"
+        },
+        {
+          "title": "labs / heroes-iii / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/heroes-iii/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Heroes of Might and Magic III UI · Component specimens"
+        },
+        {
+          "title": "labs / heroes-iii / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/heroes-iii/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Briar Gate · Adventurer’s ledger"
+        },
+        {
+          "title": "labs / hollow-knight",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hollow-knight/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "空洞骑士 · Game UI Skill"
+        },
+        {
+          "title": "labs / hollow-knight / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hollow-knight/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hollow Knight — editable component specimen"
+        },
+        {
+          "title": "labs / hollow-knight / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hollow-knight/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hollow Knight — Independent UI Study"
+        },
+        {
+          "title": "labs / hylics-2",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hylics-2/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hylics 2 · Game UI Skill"
+        },
+        {
+          "title": "labs / hylics-2 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hylics-2/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Clay choreography — component specimens"
+        },
+        {
+          "title": "labs / hylics-2 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hylics-2/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hylics 2 Clay Choreography — run 01"
+        },
+        {
+          "title": "labs / hypnospace-outlaw",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hypnospace-outlaw/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hypnospace Outlaw · Game UI Skill"
+        },
+        {
+          "title": "labs / hypnospace-outlaw / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hypnospace-outlaw/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hypnospace Outlaw · Early-web desktop component plate"
+        },
+        {
+          "title": "labs / hypnospace-outlaw / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/hypnospace-outlaw/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hypnospace Outlaw — Pond Party Desktop Study"
+        },
+        {
+          "title": "labs / in-other-waters",
+          "url": "https://335083474.github.io/game-ui-skills/labs/in-other-waters/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "异星之海 · Game UI Skill"
+        },
+        {
+          "title": "labs / in-other-waters / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/in-other-waters/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "In Other Waters · Scientific instrument component plate"
+        },
+        {
+          "title": "labs / in-other-waters / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/in-other-waters/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "In Other Waters — Field Instrument Study"
+        },
+        {
+          "title": "labs",
+          "url": "https://335083474.github.io/game-ui-skills/labs/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI Skill Lab · 六种风格，二十四个交互界面"
+        },
+        {
+          "title": "labs / inscryption",
+          "url": "https://335083474.github.io/game-ui-skills/labs/inscryption/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "邪恶冥刻 · Game UI Skill"
+        },
+        {
+          "title": "labs / inscryption / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/inscryption/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Inscryption Act 1 · isolated primitives"
+        },
+        {
+          "title": "labs / inscryption / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/inscryption/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Cabin Table — Forest Card Study"
+        },
+        {
+          "title": "labs / jet-set-radio",
+          "url": "https://335083474.github.io/game-ui-skills/labs/jet-set-radio/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "涂鸦小子 Jet Set Radio · Game UI Skill"
+        },
+        {
+          "title": "labs / jet-set-radio / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/jet-set-radio/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Street Pulse — UI component specimens"
+        },
+        {
+          "title": "labs / jet-set-radio / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/jet-set-radio/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Street Pulse — Jet Set Radio UI study"
+        },
+        {
+          "title": "labs / journey",
+          "url": "https://335083474.github.io/game-ui-skills/labs/journey/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "风之旅人 Journey · Game UI Skill"
+        },
+        {
+          "title": "labs / journey / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/journey/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Desert journey UI specimens"
+        },
+        {
+          "title": "labs / journey / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/journey/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Journey · Follow the quiet horizon"
+        },
+        {
+          "title": "labs / katamari",
+          "url": "https://335083474.github.io/game-ui-skills/labs/katamari/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "块魂 · Game UI Skill"
+        },
+        {
+          "title": "labs / katamari / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/katamari/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Toybox collage and cosmic pop UI — component specimens"
+        },
+        {
+          "title": "labs / katamari / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/katamari/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Pocket Cosmos — Katamari UI usage test"
+        },
+        {
+          "title": "labs / limbo",
+          "url": "https://335083474.github.io/game-ui-skills/labs/limbo/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "地狱边境 LIMBO · Game UI Skill"
+        },
+        {
+          "title": "labs / limbo / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/limbo/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Monochrome liminal UI specimens"
+        },
+        {
+          "title": "labs / limbo / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/limbo/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "LIMBO · Quiet signals in the fog"
+        },
+        {
+          "title": "labs / littlebigplanet",
+          "url": "https://335083474.github.io/game-ui-skills/labs/littlebigplanet/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "小小大星球 3 · Game UI Skill"
+        },
+        {
+          "title": "labs / littlebigplanet / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/littlebigplanet/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Patchwork modules — component specimens"
+        },
+        {
+          "title": "labs / littlebigplanet / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/littlebigplanet/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "LittleBigPlanet Craft Atlas — run 01"
+        },
+        {
+          "title": "labs / manifold-garden",
+          "url": "https://335083474.github.io/game-ui-skills/labs/manifold-garden/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "多重花园 · Game UI Skill"
+        },
+        {
+          "title": "labs / manifold-garden / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/manifold-garden/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Manifold Garden UI — component specimens"
+        },
+        {
+          "title": "labs / manifold-garden / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/manifold-garden/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Manifold Garden UI Study — Repeating World"
+        },
+        {
+          "title": "labs / minecraft",
+          "url": "https://335083474.github.io/game-ui-skills/labs/minecraft/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "我的世界 · Game UI Skill"
+        },
+        {
+          "title": "labs / minecraft / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/minecraft/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Minecraft — component specimens"
+        },
+        {
+          "title": "labs / minecraft / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/minecraft/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Block Bench · Inventory and Crafting Study"
+        },
+        {
+          "title": "labs / mini-metro",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mini-metro/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "迷你地铁 · Game UI Skill"
+        },
+        {
+          "title": "labs / mini-metro / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mini-metro/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Mini Metro — component specimens"
+        },
+        {
+          "title": "labs / mini-metro / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mini-metro/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Mini Metro — Network Study"
+        },
+        {
+          "title": "labs / mirrors-edge",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mirrors-edge/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "镜之边缘 · Game UI Skill"
+        },
+        {
+          "title": "labs / mirrors-edge / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mirrors-edge/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Open Line — traversal UI specimens"
+        },
+        {
+          "title": "labs / mirrors-edge / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mirrors-edge/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Open Line — Mirror’s Edge UI study"
+        },
+        {
+          "title": "labs / mundaun",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mundaun/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "蒙道恩 · Game UI Skill"
+        },
+        {
+          "title": "labs / mundaun / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mundaun/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Mundaun UI — component specimens"
+        },
+        {
+          "title": "labs / mundaun / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/mundaun/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Mundaun UI Study — Alpine Field Notes"
+        },
+        {
+          "title": "labs / nier-automata",
+          "url": "https://335083474.github.io/game-ui-skills/labs/nier-automata/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "尼尔：机械纪元 · Game UI Skill"
+        },
+        {
+          "title": "labs / nier-automata / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/nier-automata/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "NieR Beige System — component specimens"
+        },
+        {
+          "title": "labs / nier-automata / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/nier-automata/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "NieR: Automata — System Archive"
+        },
+        {
+          "title": "labs / obra-dinn",
+          "url": "https://335083474.github.io/game-ui-skills/labs/obra-dinn/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "奥伯拉丁的回归 · Game UI Skill"
+        },
+        {
+          "title": "labs / obra-dinn / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/obra-dinn/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "1-bit ledger specimens"
+        },
+        {
+          "title": "labs / obra-dinn / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/obra-dinn/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "The Lantern Ledger — Crew roster"
+        },
+        {
+          "title": "labs / octopath-traveler",
+          "url": "https://335083474.github.io/game-ui-skills/labs/octopath-traveler/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "歧路旅人 · Game UI Skill"
+        },
+        {
+          "title": "labs / octopath-traveler / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/octopath-traveler/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "HD-2D party UI specimens"
+        },
+        {
+          "title": "labs / octopath-traveler / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/octopath-traveler/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "OCTOPATH TRAVELER · Pixel party, dimensional stage"
+        },
+        {
+          "title": "labs / okami",
+          "url": "https://335083474.github.io/game-ui-skills/labs/okami/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "大神 · Game UI Skill"
+        },
+        {
+          "title": "labs / okami / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/okami/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Japanese ink-scroll action UI specimens"
+        },
+        {
+          "title": "labs / okami / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/okami/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Pine-and-Reed Province — Item Scroll"
+        },
+        {
+          "title": "labs / ori-wisps",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ori-wisps/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "奥日：精灵与萤火意志 · Game UI Skill"
+        },
+        {
+          "title": "labs / ori-wisps / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ori-wisps/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Forest UI specimens"
+        },
+        {
+          "title": "labs / ori-wisps / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/ori-wisps/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Gloamwater — Forest interface study"
+        },
+        {
+          "title": "labs / paper-mario",
+          "url": "https://335083474.github.io/game-ui-skills/labs/paper-mario/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "纸片马力欧：千年之门 · Game UI Skill"
+        },
+        {
+          "title": "labs / paper-mario / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/paper-mario/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Paper Mario — component specimens"
+        },
+        {
+          "title": "labs / paper-mario / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/paper-mario/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Paper Parade · UI Study"
+        },
+        {
+          "title": "labs / papers-please",
+          "url": "https://335083474.github.io/game-ui-skills/labs/papers-please/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "请出示文件 · Game UI Skill"
+        },
+        {
+          "title": "labs / papers-please / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/papers-please/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Desk inspection · isolated primitives"
+        },
+        {
+          "title": "labs / papers-please / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/papers-please/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Border Desk — Document Study"
+        },
+        {
+          "title": "labs / patapon",
+          "url": "https://335083474.github.io/game-ui-skills/labs/patapon/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "战鼓啪打碰 · Game UI Skill"
+        },
+        {
+          "title": "labs / patapon / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/patapon/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Patapon rhythm UI specimens"
+        },
+        {
+          "title": "labs / patapon / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/patapon/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Drumbeat Muster — Squad loadout"
+        },
+        {
+          "title": "labs / pentiment",
+          "url": "https://335083474.github.io/game-ui-skills/labs/pentiment/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "隐迹渐现 · Game UI Skill"
+        },
+        {
+          "title": "labs / pentiment / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/pentiment/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Early-print manuscript investigation UI — component specimens"
+        },
+        {
+          "title": "labs / pentiment / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/pentiment/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "The Scriptorium Record — Manuscript study"
+        },
+        {
+          "title": "labs / persona-5",
+          "url": "https://335083474.github.io/game-ui-skills/labs/persona-5/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "女神异闻录 5 · Game UI Skill"
+        },
+        {
+          "title": "labs / persona-5 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/persona-5/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Persona 5 Royal — editable component specimen"
+        },
+        {
+          "title": "labs / persona-5 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/persona-5/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Persona 5 Royal — Independent UI Study"
+        },
+        {
+          "title": "labs / pokemon-emerald",
+          "url": "https://335083474.github.io/game-ui-skills/labs/pokemon-emerald/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "宝可梦绿宝石风格 Skill · 三个交互界面"
+        },
+        {
+          "title": "labs / pokemon-emerald / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/pokemon-emerald/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Emerald GBA — editable primitive board"
+        },
+        {
+          "title": "labs / pokemon-emerald / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/pokemon-emerald/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Emerald field study — Party / Bag / Battle"
+        },
+        {
+          "title": "labs / potion-craft",
+          "url": "https://335083474.github.io/game-ui-skills/labs/potion-craft/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "药剂工艺 · Game UI Skill"
+        },
+        {
+          "title": "labs / potion-craft / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/potion-craft/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Alchemy — component specimens"
+        },
+        {
+          "title": "labs / potion-craft / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/potion-craft/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Potion Craft — Alchemist's Workbench"
+        },
+        {
+          "title": "labs / sable",
+          "url": "https://335083474.github.io/game-ui-skills/labs/sable/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Sable · Game UI Skill"
+        },
+        {
+          "title": "labs / sable / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/sable/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Sable UI — component specimens"
+        },
+        {
+          "title": "labs / sable / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/sable/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Sable UI Study — The Open Road"
+        },
+        {
+          "title": "labs / samorost-3",
+          "url": "https://335083474.github.io/game-ui-skills/labs/samorost-3/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "银河历险记 3 Samorost 3 · Game UI Skill"
+        },
+        {
+          "title": "labs / samorost-3 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/samorost-3/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Field notebook — pictorial component specimens"
+        },
+        {
+          "title": "labs / samorost-3 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/samorost-3/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Samorost 3 Naturalist Folio — run 01"
+        },
+        {
+          "title": "labs / slay-the-spire",
+          "url": "https://335083474.github.io/game-ui-skills/labs/slay-the-spire/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "杀戮尖塔风格 Skill · 五个交互界面与泛化测试"
+        },
+        {
+          "title": "labs / slay-the-spire / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/slay-the-spire/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Slay the Spire UI — editable component specimens"
+        },
+        {
+          "title": "labs / slay-the-spire / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/slay-the-spire/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "The Ember Vault · A dungeon interlude"
+        },
+        {
+          "title": "labs / slay-the-spire / run-02",
+          "url": "https://335083474.github.io/game-ui-skills/labs/slay-the-spire/run-02/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "The Ember Archive · Dialogue & Settings"
+        },
+        {
+          "title": "labs / splatoon-3",
+          "url": "https://335083474.github.io/game-ui-skills/labs/splatoon-3/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "喷射战士 3 · Game UI Skill"
+        },
+        {
+          "title": "labs / splatoon-3 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/splatoon-3/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Street Ink — component specimens"
+        },
+        {
+          "title": "labs / splatoon-3 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/splatoon-3/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Splatoon 3 — Lobby Locker"
+        },
+        {
+          "title": "labs / starcraft",
+          "url": "https://335083474.github.io/game-ui-skills/labs/starcraft/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "星际争霸 · Game UI Skill"
+        },
+        {
+          "title": "labs / starcraft / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/starcraft/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "StarCraft UI · Component specimens"
+        },
+        {
+          "title": "labs / starcraft / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/starcraft/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Sector Vandal · Terran command"
+        },
+        {
+          "title": "labs / stardew-valley",
+          "url": "https://335083474.github.io/game-ui-skills/labs/stardew-valley/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "星露谷风格 Skill · 五个交互界面与泛化测试"
+        },
+        {
+          "title": "labs / stardew-valley / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/stardew-valley/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Stardew Valley UI · Component specimens"
+        },
+        {
+          "title": "labs / stardew-valley / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/stardew-valley/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Fern Hollow · A little farm adventure"
+        },
+        {
+          "title": "labs / stardew-valley / run-02",
+          "url": "https://335083474.github.io/game-ui-skills/labs/stardew-valley/run-02/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Willowbrook · A little conversation"
+        },
+        {
+          "title": "labs / tearaway",
+          "url": "https://335083474.github.io/game-ui-skills/labs/tearaway/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "撕纸小邮差 Tearaway Unfolded · Game UI Skill"
+        },
+        {
+          "title": "labs / tearaway / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/tearaway/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Folded paper pieces — component specimens"
+        },
+        {
+          "title": "labs / tearaway / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/tearaway/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Tearaway Paper Folio — run 01"
+        },
+        {
+          "title": "labs / terraria",
+          "url": "https://335083474.github.io/game-ui-skills/labs/terraria/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "泰拉瑞亚 · Game UI Skill"
+        },
+        {
+          "title": "labs / terraria / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/terraria/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Terraria UI · Component specimens"
+        },
+        {
+          "title": "labs / terraria / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/terraria/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Terraria · Field kit"
+        },
+        {
+          "title": "labs / the-sims-4",
+          "url": "https://335083474.github.io/game-ui-skills/labs/the-sims-4/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "模拟人生 4 · Game UI Skill"
+        },
+        {
+          "title": "labs / the-sims-4 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/the-sims-4/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Household life UI · isolated primitives"
+        },
+        {
+          "title": "labs / the-sims-4 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/the-sims-4/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Hearthside — Household Study"
+        },
+        {
+          "title": "labs / tunic",
+          "url": "https://335083474.github.io/game-ui-skills/labs/tunic/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "TUNIC · Game UI Skill"
+        },
+        {
+          "title": "labs / tunic / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/tunic/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "TUNIC UI — component specimens"
+        },
+        {
+          "title": "labs / tunic / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/tunic/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "TUNIC UI Study — Far Shore Field Guide"
+        },
+        {
+          "title": "labs / undertale",
+          "url": "https://335083474.github.io/game-ui-skills/labs/undertale/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "传说之下 · Game UI Skill"
+        },
+        {
+          "title": "labs / undertale / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/undertale/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Monochrome command box · isolated primitives"
+        },
+        {
+          "title": "labs / undertale / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/undertale/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Black Field — Command Study"
+        },
+        {
+          "title": "labs / warcraft-iii",
+          "url": "https://335083474.github.io/game-ui-skills/labs/warcraft-iii/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "魔兽争霸 III · Game UI Skill"
+        },
+        {
+          "title": "labs / warcraft-iii / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/warcraft-iii/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Warcraft III UI · Component specimens"
+        },
+        {
+          "title": "labs / warcraft-iii / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/warcraft-iii/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Stormwatch · Human command"
+        },
+        {
+          "title": "labs / xcom-2",
+          "url": "https://335083474.github.io/game-ui-skills/labs/xcom-2/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "幽浮 2 · Game UI Skill"
+        },
+        {
+          "title": "labs / xcom-2 / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/xcom-2/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Tactical Command — component specimens"
+        },
+        {
+          "title": "labs / xcom-2 / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/xcom-2/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "XCOM 2 — Avenger Tactical Desk"
+        },
+        {
+          "title": "labs / zelda-alttp",
+          "url": "https://335083474.github.io/game-ui-skills/labs/zelda-alttp/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "塞尔达传说：众神的三角力量 · Game UI Skill"
+        },
+        {
+          "title": "labs / zelda-alttp / pack / assets / components",
+          "url": "https://335083474.github.io/game-ui-skills/labs/zelda-alttp/pack/assets/components/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Zelda: A Link to the Past — component specimens"
+        },
+        {
+          "title": "labs / zelda-alttp / run-01",
+          "url": "https://335083474.github.io/game-ui-skills/labs/zelda-alttp/run-01/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Lantern Keep · UI Study"
+        },
+        {
+          "title": "learn",
+          "url": "https://335083474.github.io/game-ui-skills/learn/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI — Styles, screens & design briefs"
+        },
+        {
+          "title": "preview-info.html",
+          "url": "https://335083474.github.io/game-ui-skills/preview-info.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "研究预览说明"
+        },
+        {
+          "title": "pricing",
+          "url": "https://335083474.github.io/game-ui-skills/pricing/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI — Styles, screens & design briefs"
+        },
+        {
+          "title": "skills / balatro",
+          "url": "https://335083474.github.io/game-ui-skills/skills/balatro/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI — Styles, screens & design briefs"
+        },
+        {
+          "title": "skills",
+          "url": "https://335083474.github.io/game-ui-skills/skills/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI — Styles, screens & design briefs"
+        },
+        {
+          "title": "skills / slay-the-spire",
+          "url": "https://335083474.github.io/game-ui-skills/skills/slay-the-spire/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI — Styles, screens & design briefs"
+        },
+        {
+          "title": "skills / stardew-valley",
+          "url": "https://335083474.github.io/game-ui-skills/skills/stardew-valley/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "Game UI — Styles, screens & design briefs"
+        },
+        {
+          "title": "style-database",
+          "url": "https://335083474.github.io/game-ui-skills/style-database/",
+          "kind": "page",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "游戏美术风格数据库 · Game UI"
+        }
+      ],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "Game UI — Styles, screens & design briefs"
+    },
+    {
+      "id": "investoros-preview",
+      "title": "InvestorOS 预览",
+      "category": "量化研究",
+      "description": "投资工作台的静态设计预览。",
+      "url": "https://335083474.github.io/investoros-preview/",
+      "repo": "https://github.com/335083474/investoros-preview",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "InvestorOS · 投资工作台"
+    },
+    {
+      "id": "love-notes",
+      "title": "Love Notes",
+      "category": "游戏与体验",
+      "description": "关系测验、双人比较与结果分享。",
+      "url": "https://335083474.github.io/love-notes/",
+      "repo": "https://github.com/335083474/love-notes",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "免费恋爱测试与伴侣双人对比 | 恋爱小笺"
+    },
+    {
+      "id": "quiz-crowd-runner",
+      "title": "答题冲锋",
+      "category": "游戏与体验",
+      "description": "答题、穿越奖励屏障与自动攻城。",
+      "url": "https://335083474.github.io/quiz-crowd-runner/",
+      "repo": "https://github.com/335083474/quiz-crowd-runner",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [
+        {
+          "title": "其他部署入口",
+          "url": "https://quiz-crowd-runner.test-garden.workers.dev/",
+          "kind": "alternate",
+          "status": "online",
+          "http": 200,
+          "checkedTitle": "答题冲锋 · 蓝军出击"
+        }
+      ],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "答题冲锋 · 蓝军出击"
+    },
+    {
+      "id": "test-garden",
+      "title": "测试花园",
+      "category": "游戏与体验",
+      "description": "双语测验发现、创建、分享与双人比较。",
+      "url": "https://335083474.github.io/test-garden/",
+      "repo": "https://github.com/335083474/test-garden",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [],
+      "status": "online",
+      "http": 200,
+      "checkedTitle": "免费小测试，发现不一样的自己 | 测试花园"
+    }
+  ]
+}
