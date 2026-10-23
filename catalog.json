@@ -15,6 +15,13 @@
       "http": 200,
       "links": [
         {
+          "title": "宏观观察 · 2026-10-23",
+          "url": "https://335083474.github.io/macro-observation/macro_2026-10-23.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200
+        },
+        {
           "title": "宏观观察 · 2026-10-22",
           "url": "https://335083474.github.io/macro-observation/macro_2026-10-22.html",
           "kind": "page",
