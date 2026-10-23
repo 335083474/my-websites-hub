@@ -2572,6 +2572,20 @@
       "status": "online",
       "http": 200,
       "checkedTitle": "免费小测试，发现不一样的自己 | 测试花园"
+    },
+    {
+      "id": "trade-type16",
+      "title": "TradeType 16 · 交易人格测试",
+      "category": "游戏与体验",
+      "description": "24道情境题探索16型交易人格，浏览大师策略图鉴，并用本地交割单对照交易习惯。",
+      "url": "https://335083474.github.io/trade-type16/",
+      "repo": "https://github.com/335083474/trade-type16",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "links": [],
+      "status": "online",
+      "http": 200,
+      "checkedAt": "2026-10-23T11:36:20.896587+00:00"
     }
   ]
 }
