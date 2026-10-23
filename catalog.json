@@ -2593,6 +2593,28 @@
       "status": "online",
       "http": 200,
       "checkedAt": "2026-10-23T11:36:20.896587+00:00"
+    },
+    {
+      "id": "littleguard",
+      "title": "LittleGuard · 宝宝看护演示",
+      "category": "AI 与创作",
+      "description": "播放 6 段公开宝宝视频，回看预计算的人物检测、区域提醒与跟踪空档，体验浏览器内照护记录。",
+      "url": "https://335083474.github.io/my-websites-hub/littleguard/",
+      "repo": "https://github.com/335083474/my-websites-hub/tree/main/littleguard",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "online",
+      "http": 200,
+      "checkedAt": "2026-10-23T11:58:01.125167+00:00",
+      "links": [
+        {
+          "title": "照护记录体验（仅当前浏览器）",
+          "url": "https://335083474.github.io/my-websites-hub/littleguard/#care",
+          "kind": "page",
+          "status": "online",
+          "http": 200
+        }
+      ]
     }
   ]
 }
