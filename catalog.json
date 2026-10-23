@@ -3,6 +3,40 @@
   "owner": "335083474",
   "projects": [
     {
+      "id": "macro-observation",
+      "title": "宏观观察",
+      "category": "量化研究",
+      "description": "宏观市场快扫、指标覆盖与数据完整性说明。",
+      "url": "https://335083474.github.io/macro-observation/",
+      "repo": "https://github.com/335083474/macro-observation",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "online",
+      "http": 200,
+      "links": [
+        {
+          "title": "宏观观察 · 2026-10-22",
+          "url": "https://335083474.github.io/macro-observation/macro_2026-10-22.html",
+          "kind": "page",
+          "status": "online",
+          "http": 200
+        }
+      ]
+    },
+    {
+      "id": "narrative-research",
+      "title": "穿透叙事研究",
+      "category": "量化研究",
+      "description": "六步研究导读、中际旭创案例与 AI／传统业务拆分。",
+      "url": "https://335083474.github.io/narrative-research/",
+      "repo": "https://github.com/335083474/narrative-research",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "online",
+      "http": 200,
+      "links": []
+    },
+    {
       "id": "quant-dashboard",
       "title": "量化策略管理器",
       "category": "量化研究",
@@ -19,22 +53,6 @@
           "status": "online",
           "http": 200,
           "checkedTitle": "量化策略管理器"
-        },
-        {
-          "title": "宏观观察",
-          "url": "https://335083474.github.io/quant-dashboard/macro/",
-          "kind": "page",
-          "status": "online",
-          "http": 200,
-          "checkedTitle": "宏观快扫 · 2026-10-22"
-        },
-        {
-          "title": "宏观观察 · 2026-10-22",
-          "url": "https://335083474.github.io/quant-dashboard/macro/macro_2026-10-22.html",
-          "kind": "page",
-          "status": "online",
-          "http": 200,
-          "checkedTitle": "宏观快扫 · 2026-10-22"
         },
         {
           "title": "三低转债 · 退出研究",
@@ -242,14 +260,6 @@
           "status": "online",
           "http": 200,
           "checkedTitle": "信号广场 · Signal Plaza"
-        },
-        {
-          "title": "叙事研究指南",
-          "url": "https://335083474.github.io/signal-plaza-pages/narrative-skill-guide/",
-          "kind": "page",
-          "status": "online",
-          "http": 200,
-          "checkedTitle": "穿透叙事 Skill：六步导读"
         },
         {
           "title": "Pro API",
