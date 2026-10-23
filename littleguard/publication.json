@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-10-23T11:55:26.449600+00:00",
+  "created_at": "2026-10-23T12:00:34.789932+00:00",
   "target": "https://335083474.github.io/my-websites-hub/littleguard/",
   "mode": "static_public_demo",
   "files": {
@@ -7,7 +7,7 @@
     "demo.css": "21ef8132cf37a1f83ecb12bf42293143efce1012305a7e51da5685282f738209",
     "demo.js": "ae18755f9df4bf3db410ca2e1ff4ced63e78956ab217f4dc6cf00b6d9af5829b",
     "index.html": "edae6d5594942e75cbaa12c34cc414027cba17636240d42fc2dbca1cba19ae9c",
-    "README.md": "0fd45ef2657486db0192af06edff6f9b22efbbb0e0b9c565a13b15ce83a756f2",
+    "README.md": "389c974057a2f0ad837a488b2d0ae3117cfca2d57abc428a7e042297e62b9a97",
     "assets/crawl.jpg": "1ea059fd75f47bb890d93af5d1db82f729b797674a19c2790d1e75917791891e",
     "assets/crawl.mp4": "bf19e4a2dc643cee09f7a282845998157cf2a6ae170ba239b5d4c425a59f22c7",
     "assets/cruise.jpg": "1164aefea919888c4a040e63682d3c69ba2bab0118d1b3d692a1a551a472269b",
