@@ -413,6 +413,20 @@
       "checkedTitle": "光屿 AI 摄影师 · 让日常，多一点出片"
     },
     {
+      "id": "scroll-saw-play",
+      "title": "细锯工坊 · 手机切割游戏",
+      "category": "游戏与体验",
+      "description": "Three.js 三维线锯工坊，支持单指推板、双指平移、旋转与缩放。",
+      "url": "https://335083474.github.io/scroll-saw-play/",
+      "repo": "https://github.com/335083474/scroll-saw-play",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "online",
+      "http": 200,
+      "checkedAt": "2026-10-25T08:34:37.285Z",
+      "links": []
+    },
+    {
       "id": "game-ui-skills",
       "title": "游戏 UI 实验室",
       "category": "游戏与体验",
