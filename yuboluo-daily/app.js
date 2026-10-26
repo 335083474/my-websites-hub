@@ -1,5 +1,5 @@
 'use strict';
-const BUILD_VERSION='20261026-june123';
+const BUILD_VERSION='20261027-g2-1026';
 const $=s=>document.querySelector(s);
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const STATE={data:null,group:'all',month:'all',query:'',favoritesOnly:false,includeMissing:false,selected:null,tab:'summary',day:null,cache:new Map(),transcriptFilter:'speech',request:0};
