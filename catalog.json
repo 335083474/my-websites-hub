@@ -11,9 +11,10 @@
       "repo": "https://github.com/335083474/my-websites-hub/tree/main/futures-research",
       "repoPrivate": false,
       "pagesEnabled": true,
-      "status": "pending",
-      "http": null,
-      "links": []
+      "status": "online",
+      "http": 200,
+      "links": [],
+      "checkedAt": "2026-10-26T16:40:55.214048+00:00"
     },
     {
       "id": "yuboluo-daily",
