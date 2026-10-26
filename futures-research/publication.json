@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:34:34.910171+00:00",
+  "generated_at": "2026-10-26T16:38:17.346185+00:00",
   "public_metadata_only": true,
   "source_groups": [
     {
@@ -26,18 +26,18 @@
     },
     {
       "path": "app.js",
-      "sha256": "4634fe327d1953370fbcc3c6d7ba4a6c6187e34898d9f73eb3039eb423d9ba67",
-      "bytes": 47540
+      "sha256": "2d169dc3e5575c554858d5e0316022afd3fb59d0d1530268cf0bd3135eb8fe15",
+      "bytes": 47331
     },
     {
       "path": "data/management.seed.json",
-      "sha256": "961857ee035738589a8b995a4d3801c33486bfb46afd3b1999a3322a3ae34178",
-      "bytes": 1688
+      "sha256": "6022bad742f41534f36c89e3aff9af1e2d2b2c3eb17f091c28d266a1c828e509",
+      "bytes": 1639
     },
     {
       "path": "data/snapshot.json",
-      "sha256": "7643ecd6c2e0d9bb6eec85d47bc8e81b9ce3c6fbf6fe2c3acef87005e27845c0",
-      "bytes": 339188
+      "sha256": "cba8362bf387af9fef645de08c07dd23762ec7bccd0ec0d4f83a94baae809e2d",
+      "bytes": 328599
     },
     {
       "path": "index.html",
