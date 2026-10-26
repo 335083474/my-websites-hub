@@ -3,6 +3,20 @@
   "owner": "335083474",
   "projects": [
     {
+      "id": "yuboluo-daily",
+      "title": "宇菠萝 · 每日思路",
+      "category": "量化研究",
+      "description": "按日期查看聊天核心思路、原话和来源图，支持搜索、收藏与个人笔记。",
+      "url": "https://335083474.github.io/my-websites-hub/yuboluo-daily/",
+      "repo": "https://github.com/335083474/my-websites-hub/tree/main/yuboluo-daily",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "unknown",
+      "http": null,
+      "checkedAt": "2026-10-26T06:28:33.935513+00:00",
+      "links": []
+    },
+    {
       "id": "macro-observation",
       "title": "宏观观察",
       "category": "量化研究",
