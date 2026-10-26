@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "updated_at": null,
+  "tasks": [],
+  "drafts": [],
+  "events": [],
+  "decisions": [
+    {
+      "id": "main_project",
+      "title": "统一主项目",
+      "status": "confirmed",
+      "value": "futures_factor",
+      "note": "用户已在讨论中选择 futures_factor 作为最终主项目。",
+      "stage": "registry"
+    },
+    {
+      "id": "registry_design",
+      "title": "正式登记与版本规则",
+      "status": "pending",
+      "value": "参考股票：独立版本定义＋自动生成索引",
+      "note": "方案已提出，等待用户讨论确认。网页中的来源目录不是新的正式主表。",
+      "stage": "registry"
+    },
+    {
+      "id": "mode_contract",
+      "title": "截面与时序边界",
+      "status": "pending",
+      "value": "共享数据与公式，分别检验与定义信号",
+      "note": "需要确认统一后的接口、品种/合约身份与检验口径。",
+      "stage": "ts"
+    },
+    {
+      "id": "migration_plan",
+      "title": "存量能力迁入顺序",
+      "status": "pending",
+      "value": "先数据与登记，再年度任务、研究证据与下游接口",
+      "note": "先讨论确认再执行；保存讨论记录不会迁移文件或启动回测。",
+      "stage": "factor"
+    },
+    {
+      "id": "execution_contract",
+      "title": "期货账户与执行口径",
+      "status": "pending",
+      "value": "复用 vn.py 执行，明确成本、保证金与换月契约",
+      "note": "已有历史回测与新主项目尚未贯通；不包含交易启动授权。",
+      "stage": "account"
+    }
+  ]
+}

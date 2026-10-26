@@ -3,6 +3,19 @@
   "owner": "335083474",
   "projects": [
     {
+      "id": "futures-research",
+      "title": "期货研究台 · 全流程管理",
+      "category": "量化研究",
+      "description": "用流程图管理因子研究、证据、待办与讨论，区分截面/时序及真实验证状态。",
+      "url": "https://335083474.github.io/my-websites-hub/futures-research/",
+      "repo": "https://github.com/335083474/my-websites-hub/tree/main/futures-research",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "pending",
+      "http": null,
+      "links": []
+    },
+    {
       "id": "yuboluo-daily",
       "title": "宇菠萝 · 每日思路",
       "category": "量化研究",

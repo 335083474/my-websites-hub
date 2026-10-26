@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-26T16:34:34.910171+00:00",
+  "public_metadata_only": true,
+  "source_groups": [
+    {
+      "id": "ust",
+      "name": "研报提取",
+      "count": 99
+    },
+    {
+      "id": "expansion",
+      "name": "扩充包条目",
+      "count": 343
+    },
+    {
+      "id": "lab",
+      "name": "主项目实例",
+      "count": 12
+    }
+  ],
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "app.js",
+      "sha256": "4634fe327d1953370fbcc3c6d7ba4a6c6187e34898d9f73eb3039eb423d9ba67",
+      "bytes": 47540
+    },
+    {
+      "path": "data/management.seed.json",
+      "sha256": "961857ee035738589a8b995a4d3801c33486bfb46afd3b1999a3322a3ae34178",
+      "bytes": 1688
+    },
+    {
+      "path": "data/snapshot.json",
+      "sha256": "7643ecd6c2e0d9bb6eec85d47bc8e81b9ce3c6fbf6fe2c3acef87005e27845c0",
+      "bytes": 339188
+    },
+    {
+      "path": "index.html",
+      "sha256": "a84ab61f2c28b07ff5360d8aadc970eb8f9c4516012dc15ebf307ddfbcfb36b9",
+      "bytes": 3843
+    },
+    {
+      "path": "styles.css",
+      "sha256": "4063078cb77727e288ed814239ce3bcd2b6bd2e3ce9943849f510ce8e89605c6",
+      "bytes": 22757
+    }
+  ],
+  "source_files_uploaded": false,
+  "management": "browser local storage; explicit import/export; no task execution"
+}

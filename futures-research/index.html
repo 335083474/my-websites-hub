@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="期货因子研究全流程工作台：可视化流程、因子目录、证据、待办与讨论决定。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <title>期货研究台 · Futures Factor Lab</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232d5bdd'/%3E%3Cpath d='M10 23V9h13M10 16h10' stroke='white' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#overview"><span class="brand-mark">F<span>·</span></span><span>期货研究台<small>FUTURES FACTOR LAB</small></span></a>
+    <div class="workspace-label">工作空间</div>
+    <div class="workspace-picker"><span class="workspace-avatar">F</span><span>统一期货研究<small>futures_factor</small></span><span class="confirmed-dot" title="主项目已确认"></span></div>
+    <nav aria-label="主导航">
+      <button data-page="overview" class="nav-button active"><span data-icon="workflow"></span>全流程<span class="nav-tag">20</span></button>
+      <button data-page="factors" class="nav-button"><span data-icon="layers"></span>因子目录<span id="factor-nav-count" class="nav-count"></span></button>
+      <button data-page="runs" class="nav-button"><span data-icon="activity"></span>研究记录</button>
+      <div class="nav-divider"></div>
+      <button data-page="tasks" class="nav-button"><span data-icon="checklist"></span>整理待办<span id="task-nav-count" class="nav-count"></span></button>
+      <button data-page="decisions" class="nav-button"><span data-icon="message"></span>讨论与决定<span class="nav-pending"></span></button>
+    </nav>
+    <div class="sidebar-note"><span data-icon="git"></span><div>从分散，走向一套流程<p>保留证据，逐步接通。</p></div></div>
+    <a class="back-link" href="../"><span data-icon="arrow-left"></span>返回我的网站</a>
+    <div class="sidebar-footer"><span class="online-dot"></span><div>GitHub Pages<small>研究快照 · 浏览器保存计划</small></div></div>
+  </aside>
+  <div class="app-main">
+    <header class="topbar">
+      <div class="breadcrumbs"><button id="mobile-menu" class="icon-button" aria-label="切换导航"><span data-icon="menu"></span></button><span class="crumb-root">研究管理</span><span class="crumb-slash">/</span><strong id="breadcrumb">全流程</strong></div>
+      <div class="topbar-actions"><span class="storage-indicator" title="待办、草稿和讨论记录保存到当前浏览器"><span data-icon="database"></span>当前浏览器保存</span><button class="icon-button" id="help-button" aria-label="使用说明"><span data-icon="help"></span></button><span class="user-avatar">W</span></div>
+    </header>
+    <main id="main" tabindex="-1"><div class="loading"><span class="loader"></span><p>正在读取研究快照…</p></div></main>
+    <footer class="page-footer"><span>Futures Factor Lab <span class="footer-dot">·</span> 每个结论，都有来处</span><span id="snapshot-footer"></span></footer>
+  </div>
+  <div id="drawer-backdrop" class="drawer-backdrop hidden"></div><aside id="drawer" class="drawer hidden" aria-label="详情面板"></aside>
+  <div id="modal-root"></div><div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+  <script src="app.js" defer></script>
+</body>
+</html>
