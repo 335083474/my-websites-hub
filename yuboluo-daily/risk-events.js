@@ -146,6 +146,7 @@
  }
  function update(){
   activeSeries=series();const mapping=mappings(activeSeries);groups=mapping.groups;
+  for(const option of dateSelect.options)option.textContent=option.value==='pending'?`年份待核 · ${dateEvents('pending').length}条`:`${option.value} · ${dateEvents(option.value).length}条`;
   $('#coverage').textContent=`${activeSeries.name} ${activeSeries.code} · ${activeSeries.points[0][0]}—${activeSeries.points.at(-1)[0]}`;
   $('#markCounts').textContent=`${groups.length}个指数圆点 · ${groups.reduce((n,g)=>n+g.events.length,0)}条所选记录 · ${dateEvents('pending').length}条年份待核单列`;
   $('#missingNotice').hidden=!mapping.missing.length;
