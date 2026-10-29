@@ -38,7 +38,8 @@
   const bounds=wrap.getBoundingClientRect(),tw=tip.getBoundingClientRect().width,th=tip.getBoundingClientRect().height;
   let tx=px+18,ty=py-th-16;if(tx+tw>bounds.width-9)tx=px-tw-18;if(ty<6)ty=py+18;
   tip.style.left=Math.max(9,Math.min(tx,bounds.width-tw-9))+'px';
-  tip.style.top=Math.max(6,Math.min(ty,bounds.height-th-6))+'px';
+  const screenTop=8-bounds.top,screenBottom=window.innerHeight-bounds.top-th-8;
+  tip.style.top=Math.max(screenTop,Math.min(ty,screenBottom))+'px';
  }
  function choose(group){selectedDate=[...new Set(group.events.map(e=>e.date))].sort().at(-1);dateSelect.value=selectedDate;update();}
  function draw(){
