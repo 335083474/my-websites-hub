@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#16392f"><meta name="description" content="宇菠萝群聊按日阅读：核心思路、聊天原话与来源图，保留缺失和复核状态。"><title>宇菠萝 · 每日思路</title><link rel="stylesheet" href="app.css"></head>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#16392f"><meta name="description" content="宇菠萝群聊按日阅读：核心思路、聊天原话与来源图，保留缺失和复核状态。"><title>宇菠萝 · 每日思路</title><link rel="stylesheet" href="app.css?v=20261029-risk-v1"></head>
 <body>
 <aside class="sidebar" id="sidebar">
  <a class="brand" href="#"><span class="brand-mark" aria-hidden="true">菠</span><span>宇菠萝<span class="brand-sub">每日思路 / DAILY NOTES</span></span></a>
+ <a class="risk-map-entry" href="risk-events.html"><span>风险事件图 ↗</span><small>指数走势 · 悬停看提示</small></a>
  <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索原话、主题、关键词" aria-label="搜索聊天内容"><kbd>/</kbd></label>
  <div class="group-switch" aria-label="选择群"><button data-group="all" class="active">全部</button><button data-group="1">第一群</button><button data-group="2">备用群</button></div>
  <div class="filter-line"><select id="month" aria-label="按月份筛选"><option value="all">全部月份</option></select><button id="favoritesFilter" class="text-button" aria-pressed="false">☆ 收藏</button><button id="calendarToggle" class="icon-button" aria-label="展开月历">▦</button></div>
@@ -12,7 +13,7 @@
  <div class="sidebar-footer"><span class="live-dot"></span><span id="snapshot">资料快照</span><button id="reload" title="重新读取最新资料">↻</button></div>
 </aside>
 <div class="workspace">
- <header class="topbar"><div class="breadcrumb"><button id="mobileMenu" class="icon-button" aria-label="打开日期目录">☰</button><span>阅读室</span><span class="slash">/</span><span id="crumb">每日整理</span></div><div class="top-right"><span class="private-label">◉ 公开阅读资料库</span><button id="help" class="text-button">整理说明</button></div></header>
+ <header class="topbar"><div class="breadcrumb"><button id="mobileMenu" class="icon-button" aria-label="打开日期目录">☰</button><span>阅读室</span><span class="slash">/</span><span id="crumb">每日整理</span></div><div class="top-right"><a class="risk-map-top" href="risk-events.html">风险事件图 ↗</a><span class="private-label">◉ 公开阅读资料库</span><button id="help" class="text-button">整理说明</button></div></header>
  <div class="overview" id="overview"></div>
  <main id="main" aria-live="polite"><div class="loading">正在整理阅读目录…</div></main>
  <footer class="page-footer"><span>保留原话，整理思路。</span><span>群聊原话 ≠ 整理摘要 · 点击证据回看来源</span></footer>
