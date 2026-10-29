@@ -4,17 +4,20 @@
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#16392f">
  <meta name="description" content="把宇菠萝资料中的风险提示放到指数走势上，悬停查看事件，点击回看原句和后续修正。">
  <title>风险事件图 · 宇菠萝</title>
- <link rel="stylesheet" href="risk-events.css?v=20261029-risk-v1">
- <script src="vendor/d3.v7.min.js" defer></script><script src="risk-events.js?v=20261029-risk-v2" defer></script>
+ <link rel="stylesheet" href="risk-events.css?v=20261029-risk-v3">
+ <script src="vendor/d3.v7.min.js" defer></script><script src="risk-events.js?v=20261029-risk-v3" defer></script>
 </head>
 <body>
  <header class="site-header"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">菠</span><span>宇菠萝 <small>每日思路</small></span></a><nav aria-label="页面导航"><a href="./">每日阅读</a><a href="risk-events.html" aria-current="page">风险事件图</a></nav></header>
  <main>
-  <section class="intro"><span class="eyebrow">RISK EVENTS / MARKET CONTEXT</span><h1>把风险提示，放回走势里。</h1><p>圆点落在指数收盘线上。鼠标悬停看事件，点击圆点回看原句与判断变化。</p></section>
+  <section class="intro"><span class="eyebrow">RISK EVENTS / MARKET CONTEXT</span><h1>把风险提示，放回走势里。</h1><p>颜色区分事件类别，箭头显示原文倾向。悬停看摘要，点击回看原句与条件。</p></section>
   <div class="date-notice"><span aria-hidden="true">◷</span><p><strong>按资料标签日期定位</strong>，真实发言时间与年份尚未逐条核实。休市日顺延到下一交易日收盘，仅用于图上定位；无行情的日期不补点。</p></div>
   <section class="chart-section" aria-labelledby="chartHeading">
    <div class="chart-heading"><div><span class="eyebrow">MARKET MAP</span><h2 id="chartHeading">指数走势与风险提示</h2></div><div class="controls"><label>观察指数<select id="indexSelect" aria-label="观察指数" disabled></select></label><label>查看资料日期<select id="dateSelect" aria-label="查看资料日期" disabled></select></label></div></div>
-   <div class="chart-meta"><span id="coverage">正在载入行情与事件…</span><span class="legend"><i class="line-key" aria-hidden="true"></i>指数收盘 <i class="point-key" aria-hidden="true"></i>风险提示</span></div>
+   <div class="chart-meta"><span id="coverage">正在载入行情与事件…</span><span class="legend"><i class="line-key" aria-hidden="true"></i>指数收盘</span></div>
+   <div id="categoryLegend" class="category-legend" aria-label="事件类型颜色"></div>
+   <div class="direction-legend"><span>↑ 原文偏多</span><span>↓ 原文偏空</span><span>↔ 板块轮动</span><span class="conditional-sample"><i aria-hidden="true"></i>虚线／空心＝条件情景</span></div>
+   <p class="direction-caveat">箭头保留原文的对象与阶段；同点可同时含上涨、下跌情景。无箭头表示本图未提炼明确方向。</p>
    <div id="chartWrap" class="chart-wrap"><svg id="riskChart" role="img" aria-labelledby="chartTitle chartDesc"><title id="chartTitle">指数收盘走势与风险提示</title><desc id="chartDesc">每个圆点代表对应交易日的一组风险提示，悬停或聚焦查看摘要，点击或按回车查看原句。</desc></svg><div id="eventTooltip" class="event-tooltip" role="tooltip" hidden></div><div id="chartStatus" class="chart-status">正在载入…</div></div>
    <div class="chart-foot"><span id="markCounts"></span><span>圆点可用 Tab 聚焦，← → 切换，回车查看</span></div><p id="missingNotice" class="missing-notice" hidden></p>
   </section>
