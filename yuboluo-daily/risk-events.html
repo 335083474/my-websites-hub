@@ -2,26 +2,28 @@
 <html lang="zh-CN">
 <head>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#16392f">
- <meta name="description" content="把宇菠萝资料中的风险提示放到指数走势上，悬停查看事件，点击回看原句和后续修正。">
- <title>风险事件图 · 宇菠萝</title>
- <link rel="stylesheet" href="risk-events.css?v=20261029-risk-v4">
- <script src="vendor/d3.v7.min.js" defer></script><script src="risk-events.js?v=20261029-risk-v4" defer></script>
+ <meta name="description" content="把宇菠萝资料中的观点、机会条件、风险和仓位自述放到指数走势上，悬停看摘要，点击查原句。">
+ <title>观点、风险与仓位 · 宇菠萝</title>
+ <link rel="stylesheet" href="risk-events.css?v=20261029-observations-v5">
+ <script src="vendor/d3.v7.min.js" defer></script><script src="risk-events.js?v=20261029-observations-v5" defer></script>
 </head>
 <body>
- <header class="site-header"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">菠</span><span>宇菠萝 <small>每日思路</small></span></a><nav aria-label="页面导航"><a href="./">每日阅读</a><a href="risk-events.html" aria-current="page">风险事件图</a></nav></header>
+ <header class="site-header"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">菠</span><span>宇菠萝 <small>每日思路</small></span></a><nav aria-label="页面导航"><a href="./">每日阅读</a><a href="risk-events.html" aria-current="page">观点与仓位图</a></nav></header>
  <main>
-  <section class="intro"><span class="eyebrow">RISK EVENTS / MARKET CONTEXT</span><h1>把风险提示，放回走势里。</h1><p>颜色区分事件类别，箭头显示原文倾向。悬停看摘要，点击回看原句与条件。</p></section>
-  <div class="date-notice"><span aria-hidden="true">◷</span><p><strong>按资料标签日期定位</strong>，真实发言时间与年份尚未逐条核实。休市日顺延到下一交易日收盘，仅用于图上定位；无行情的日期不补点。</p></div>
+  <section class="intro"><span class="eyebrow">VIEWS / RISKS / POSITIONS</span><h1>把观点与仓位，放回走势里。</h1><p>风险、机会、持仓自述与操作计划一起看。颜色区分类型，箭头保留原文倾向与条件。</p></section>
+  <div class="date-notice"><span aria-hidden="true">◷</span><p><strong>按资料标签日期定位</strong>，真实发言时间与年份尚未逐条核实。休市日顺延到下一交易日收盘，仅用于图上定位；无行情的日期不补点。早期资料已发现日期错位线索，暂不据此评判预测准确率。</p></div>
+  <div class="recent-context"><article id="latestPosition"></article><article id="latestView"></article></div>
   <section class="chart-section" aria-labelledby="chartHeading">
-   <div class="chart-heading"><div><span class="eyebrow">MARKET MAP</span><h2 id="chartHeading">指数走势与风险提示</h2></div><div class="controls"><label>观察指数<select id="indexSelect" aria-label="观察指数" disabled></select></label><label>查看资料日期<select id="dateSelect" aria-label="查看资料日期" disabled></select></label></div></div>
+   <div class="chart-heading"><div><span class="eyebrow">MARKET MAP</span><h2 id="chartHeading">指数走势、观点与仓位</h2></div><div class="controls"><label>观察指数<select id="indexSelect" aria-label="观察指数" disabled></select></label><label>查看资料日期<select id="dateSelect" aria-label="查看资料日期" disabled></select></label></div></div>
    <div class="chart-meta"><span id="coverage">正在载入行情与事件…</span><span class="legend"><i class="line-key" aria-hidden="true"></i>指数收盘</span></div>
+   <fieldset class="layer-controls"><legend>显示内容</legend><label><input type="checkbox" data-layer="risk" checked>风险提示</label><label><input type="checkbox" data-layer="view" checked>机会与观点</label><label><input type="checkbox" data-layer="position" checked>仓位披露</label><label><input type="checkbox" data-layer="plan" checked>操作计划</label></fieldset>
    <div id="categoryLegend" class="category-legend" aria-label="事件类型颜色"></div>
-   <div class="direction-legend"><span>↑ 原文偏多</span><span>↓ 原文偏空</span><span>↔ 板块轮动</span><span class="conditional-sample"><i aria-hidden="true"></i>虚线／空心＝条件情景</span></div>
-   <p class="direction-caveat">箭头保留原文的对象与阶段；同点可同时含上涨、下跌情景。无箭头表示本图未提炼明确方向。</p>
-   <div id="chartWrap" class="chart-wrap"><svg id="riskChart" role="img" aria-labelledby="chartTitle chartDesc"><title id="chartTitle">指数收盘走势与风险提示</title><desc id="chartDesc">每个圆点代表对应交易日的一组风险提示，悬停或聚焦查看摘要，点击或按回车查看原句。</desc></svg><div id="eventTooltip" class="event-tooltip" role="tooltip" hidden></div><div id="chartStatus" class="chart-status">正在载入…</div></div>
+   <div class="direction-legend"><span>■ 持仓自述</span><span>◇ 未来计划</span><span>↑ 原文偏多</span><span>↓ 原文偏空</span><span>↔ 板块轮动</span><span class="conditional-sample"><i aria-hidden="true"></i>虚线／空心＝条件情景</span></div>
+   <p class="direction-caveat">箭头保留原文的对象与阶段；同点可同时含上涨、下跌情景。无箭头表示本图未提炼明确方向。仓位只记录当次披露，计划不等于已经执行。</p>
+   <div id="chartWrap" class="chart-wrap"><svg id="riskChart" role="img" aria-labelledby="chartTitle chartDesc"><title id="chartTitle">指数收盘走势与风险提示</title><desc id="chartDesc">每个圆点代表对应资料的一组观点与风险记录，实心方块表示仓位自述，空心菱形表示操作计划，悬停或聚焦查看摘要，点击或按回车查看原句。</desc></svg><div id="eventTooltip" class="event-tooltip" role="tooltip" hidden></div><div id="chartStatus" class="chart-status">正在载入…</div></div>
    <div class="chart-foot"><span id="markCounts"></span><span>圆点可用 Tab 聚焦，← → 切换，回车查看</span></div><p id="missingNotice" class="missing-notice" hidden></p>
   </section>
-  <section class="evidence-section" aria-labelledby="selectedHeading"><div class="evidence-heading"><span class="eyebrow">EVENTS & EVIDENCE</span><h2 id="selectedHeading">选择一个圆点，查看当天的风险提示</h2><p id="selectionNote"></p></div><div id="eventDetails" aria-live="polite"></div></section>
+  <section class="evidence-section" aria-labelledby="selectedHeading"><div class="evidence-heading"><span class="eyebrow">EVENTS & EVIDENCE</span><h2 id="selectedHeading">选择一个圆点，查看当天的观点、风险与仓位</h2><p id="selectionNote"></p></div><div id="eventDetails" aria-live="polite"></div></section>
   <details class="source-note"><summary>资料来源与整理口径</summary><div id="sourceInfo"></div></details>
  </main>
  <footer><a href="./">← 回到每日阅读</a><span>原句、整理归纳与未核事项分别保留。</span></footer>
