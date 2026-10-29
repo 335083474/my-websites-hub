@@ -1,6 +1,6 @@
 'use strict';
 (()=>{
- const VERSION='20261029-observations-v5', $=s=>document.querySelector(s);
+ const VERSION='20261029-observations-v6', $=s=>document.querySelector(s);
  const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const iso=d=>new Date(d+'T00:00:00Z');
  const fmt=n=>n.toLocaleString('zh-CN',{minimumFractionDigits:2,maximumFractionDigits:2});
