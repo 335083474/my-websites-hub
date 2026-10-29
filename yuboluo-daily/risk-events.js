@@ -1,6 +1,6 @@
 'use strict';
 (()=>{
- const VERSION='20261029-risk-v3', $=s=>document.querySelector(s);
+ const VERSION='20261029-risk-v4', $=s=>document.querySelector(s);
  const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const iso=d=>new Date(d+'T00:00:00Z');
  const fmt=n=>n.toLocaleString('zh-CN',{minimumFractionDigits:2,maximumFractionDigits:2});
@@ -14,7 +14,7 @@
  function eventDirections(e){return e.direction?.signals||[];}
  function directionLabel(e){
   const signals=eventDirections(e);if(!signals.length)return '本条未标方向';
-  return signals.map(s=>`${components(s).map(x=>glyphs[x]).join('')} ${s.conditional?'条件情景':s.basis} · ${s.scope}`).join('；');
+  return [...new Set(signals.map(s=>`${components(s).map(x=>glyphs[x]).join('')} ${s.conditional?'条件情景':s.basis} · ${s.scope}`))].join('；');
  }
  function categoryColor(category){return DATA.categoryStyles[category].color;}
  function plottedDirections(group){
