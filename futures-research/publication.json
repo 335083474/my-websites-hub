@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:02:17.738537+00:00",
+  "generated_at": "2026-10-31T12:05:09.488592+00:00",
   "public_metadata_only": true,
   "source_groups": [
     {
@@ -41,18 +41,18 @@
     },
     {
       "path": "data/snapshot.json",
-      "sha256": "a5012a55f4127fa9adfafbc8028faf5396631415af8bf72444230fab4580c1d3",
+      "sha256": "539e11e88653b91afb4f52e26569d25a102016580c19ce3ac9ea7b5461be9157",
       "bytes": 7539421
     },
     {
       "path": "index.html",
-      "sha256": "ad7aedd104a1fc4ced6bc4ed281a6fddd68c15d30de273fbf39c6e436e545ad5",
+      "sha256": "c47d03363c21513701c73e045e67d652a9f81bb64cd6ea83a6c1a0574c6fdbfc",
       "bytes": 4265
     },
     {
       "path": "research.js",
-      "sha256": "0e454852a87de343dcb52360c68b6121ded78546333e495e840b059d616ca9b3",
-      "bytes": 17403
+      "sha256": "eb09890ecfe34a9f2dbd65d4e9184d43a36582722e05392b9ab1e543bf7ee981",
+      "bytes": 17404
     },
     {
       "path": "styles.css",

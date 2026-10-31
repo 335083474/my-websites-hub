@@ -5,7 +5,7 @@ const dimensionNames={arithmetic:'计算正确性',data_applicability:'数据适
 const evidenceNames={passed:'通过（声明范围）',failed:'失败',insufficient_evidence:'证据不足',not_run:'未执行',not_applicable:'不适用'};
 const numberText=v=>v==null?'—':typeof v==='number'?v.toLocaleString('zh-CN',{maximumFractionDigits:5}):String(v);
 const nsName=n=>n==='real_contract'?'正式实约':'连续课程';
-const researchData=()=>state.data.research;
+const researchData=()=>state.data?.research;
 const dimensionBadge=d=>`<span class="evidence-state ${d?.status==='passed'?'ok':d?.status==='failed'?'bad':'unknown'}" title="${esc(d?.reason||'')}">${esc(evidenceNames[d?.status]||'待取得证据')}</span>`;
 function researchSources(ids){const data=researchData();return `<details class="research-sources"><summary>来源与摘要身份</summary>${ids.map(id=>{const s=data.sources.find(s=>s.id===id);return s?`<div><strong>${esc(s.title)}</strong><p>${esc(s.run_id)} / ${esc(s.file)}</p><code>${esc(s.sha256)}</code></div>`:'';}).join('')}<p>本地原件封存；公开页面只含汇总。校验身份不代表独立数据来源。</p></details>`;}
 function researchTable(headers,records){return `<div class="table-scroll"><table class="research-table"><thead><tr>${headers.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${records.join('')||`<tr><td colspan="${headers.length}">没有符合条件的记录</td></tr>`}</tbody></table></div>`;}
