@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:35:00.870037+00:00",
+  "generated_at": "2026-10-31T09:41:41.886496+00:00",
   "project": "Futures Factor Lab",
   "source_groups": [
     {
@@ -95037,10 +95037,10 @@
       "row": 2,
       "status_label": "已验收",
       "status": "available",
-      "subtitle": "同一合约 · 不同日期",
+      "subtitle": "同一品种 · 不同日期",
       "description": "全12实约与2连续实验独立TS；历史阈值、成熟滚动和状态段。",
       "outputs": [
-        "逐合约IC与HAC",
+        "逐品种IC、条件区间与状态",
         "成熟标签滚动IC"
       ],
       "dependencies": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:35:01.048595+00:00",
+  "generated_at": "2026-10-31T09:41:42.070444+00:00",
   "public_metadata_only": true,
   "source_groups": [
     {
@@ -41,8 +41,8 @@
     },
     {
       "path": "data/snapshot.json",
-      "sha256": "94935b3841f0e5bf310f6b210ab21e0a49e137fed1f540071e78d80f429fb04c",
-      "bytes": 3666287
+      "sha256": "ba0711dc21571b246667841d3bfcea08e2d9e05deda14e06d940d9df221e0581",
+      "bytes": 3666305
     },
     {
       "path": "index.html",
