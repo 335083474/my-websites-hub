@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
   <title>期货研究台 · Futures Factor Lab</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232d5bdd'/%3E%3Cpath d='M10 23V9h13M10 16h10' stroke='white' stroke-width='3' fill='none'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=ca318e7699c8ec90">
 </head>
 <body>
   <aside class="sidebar" id="sidebar">
@@ -17,6 +17,9 @@
       <button data-page="overview" class="nav-button active"><span data-icon="workflow"></span>全流程<span class="nav-tag">20</span></button>
       <button data-page="factors" class="nav-button"><span data-icon="layers"></span>因子目录<span id="factor-nav-count" class="nav-count"></span></button>
       <button data-page="runs" class="nav-button"><span data-icon="activity"></span>研究记录</button>
+      <button data-page="research" class="nav-button"><span data-icon="shield"></span>因子检验</button>
+      <button data-page="compare" class="nav-button"><span data-icon="git"></span>版本比较</button>
+      <button data-page="production" class="nav-button"><span data-icon="database"></span>批量任务</button>
       <div class="nav-divider"></div>
       <button data-page="tasks" class="nav-button"><span data-icon="checklist"></span>整理待办<span id="task-nav-count" class="nav-count"></span></button>
       <button data-page="decisions" class="nav-button"><span data-icon="message"></span>讨论与决定<span class="nav-pending"></span></button>
@@ -36,6 +39,6 @@
   <div id="drawer-backdrop" class="drawer-backdrop hidden"></div><aside id="drawer" class="drawer hidden" aria-label="详情面板"></aside>
   <div id="modal-root"></div><div id="toast" role="status" aria-live="polite"></div>
   <input type="file" id="import-file" accept="application/json,.json" hidden>
-  <script src="app.js" defer></script>
+  <script src="research.js?v=b97627e560f522b4" defer></script><script src="app.js?v=fdbff7bff2d21ee4" defer></script>
 </body>
 </html>

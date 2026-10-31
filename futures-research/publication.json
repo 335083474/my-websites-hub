@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:38:17.346185+00:00",
+  "generated_at": "2026-10-31T09:35:01.048595+00:00",
   "public_metadata_only": true,
   "source_groups": [
     {
@@ -16,6 +16,11 @@
       "id": "lab",
       "name": "主项目实例",
       "count": 12
+    },
+    {
+      "id": "verified",
+      "name": "已验收研究定义",
+      "count": 14
     }
   ],
   "files": [
@@ -26,28 +31,33 @@
     },
     {
       "path": "app.js",
-      "sha256": "2d169dc3e5575c554858d5e0316022afd3fb59d0d1530268cf0bd3135eb8fe15",
-      "bytes": 47331
+      "sha256": "fdbff7bff2d21ee4501a180ead60ae155fc44f6643c0b6205d7e6c2296c9b2a0",
+      "bytes": 47613
     },
     {
       "path": "data/management.seed.json",
-      "sha256": "6022bad742f41534f36c89e3aff9af1e2d2b2c3eb17f091c28d266a1c828e509",
-      "bytes": 1639
+      "sha256": "e9d0afa43207d06ec64a3eccbf400efd02b25337efca423145d33210cd1c884c",
+      "bytes": 1618
     },
     {
       "path": "data/snapshot.json",
-      "sha256": "cba8362bf387af9fef645de08c07dd23762ec7bccd0ec0d4f83a94baae809e2d",
-      "bytes": 328599
+      "sha256": "94935b3841f0e5bf310f6b210ab21e0a49e137fed1f540071e78d80f429fb04c",
+      "bytes": 3666287
     },
     {
       "path": "index.html",
-      "sha256": "a84ab61f2c28b07ff5360d8aadc970eb8f9c4516012dc15ebf307ddfbcfb36b9",
-      "bytes": 3843
+      "sha256": "dc6c53c1ca3ade7d7bc5ef1702756700f6ecc8db285d695ae83ee48f78e2eda2",
+      "bytes": 4265
+    },
+    {
+      "path": "research.js",
+      "sha256": "b97627e560f522b4a4ea7eb9451b94098b21b94a473b293ebf6d83be569c3fee",
+      "bytes": 16779
     },
     {
       "path": "styles.css",
-      "sha256": "4063078cb77727e288ed814239ce3bcd2b6bd2e3ce9943849f510ce8e89605c6",
-      "bytes": 22757
+      "sha256": "ca318e7699c8ec90936ef9010e3595e9861fdf62b86665f2bdc1adaa9d2b5868",
+      "bytes": 25974
     }
   ],
   "source_files_uploaded": false,
