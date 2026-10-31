@@ -43,6 +43,7 @@ function persist(change,description){
   state.management=checked;updateCounts();return checked;
 }
 function updateCounts(){
+  if(!state.data||!state.management)return;
   $('.nav-tag').textContent=state.data.stages.length;
   $('#factor-nav-count').textContent=String(allFactors().length);
   const pending=state.management.tasks.filter(t=>t.status!=='done').length;
@@ -55,6 +56,7 @@ function render(){
   const names={overview:'全流程',factors:'因子目录',runs:'研究记录',tasks:'整理待办',decisions:'讨论与决定',research:'因子检验',compare:'版本比较',production:'批量任务'};
   $('#breadcrumb').textContent=names[state.page];document.title=names[state.page]+' · 期货研究台';
   $$('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===state.page));
+  if(!state.data||!state.management){$('#main').innerHTML=heading('研究快照正在加载','加载完成后显示所选页面，请稍候。');return;}
   const renderers={overview:renderOverview,factors:renderFactors,runs:renderRuns,tasks:renderTasks,decisions:renderDecisions,research:renderResearch,compare:renderCompare,production:renderProduction};
   $('#main').innerHTML=renderers[state.page]();icons($('#main'));updateCounts();
   if(state.page==='overview'&&state.view==='graph')requestAnimationFrame(drawGraph);
