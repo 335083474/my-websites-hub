@@ -35,3 +35,5 @@ $('#search').addEventListener('input',e=>{state.search=e.target.value.trim();ren
 fetch('catalog.json?v='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{state.projects=data.projects;$('#projectCount').textContent=data.projects.length;$('#linkCount').textContent=data.projects.reduce((n,p)=>n+1+p.links.length,0);$('#checkedAt').textContent='最近检查 '+new Date(data.checkedAt).toLocaleString('zh-CN',{timeZone:'Asia/Hong_Kong',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})+' · 香港时间';render();}).catch(()=>{$('#grid').innerHTML='<p class="empty">目录暂时未能载入，请刷新页面重试。</p>';$('#checkedAt').textContent='目录读取失败';});
 
 visuals['futures-research']={accent:'#3867db',code:'FACTOR LAB',purpose:'管理期货研究全流程',tags:['流程图','因子与证据'],description:'从数据和公式到验证与运行，用一张流程图管理研究、待办和讨论决定。',preview:'previews/futures-research.png'};
+
+visuals['strategy-environment']={accent:'#174e48',code:'STRATEGY ENVIRONMENT',purpose:'看资产与策略环境',tags:['六维评分','数据缺口'],description:'七类资产六维观察与国内期货技术状态，逐格查看日期、来源和缺失原因。历史诊断与严格时点分开展示。',preview:'previews/strategy-environment.png'};

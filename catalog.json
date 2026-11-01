@@ -3,6 +3,20 @@
   "owner": "335083474",
   "projects": [
     {
+      "id": "strategy-environment",
+      "title": "策略环境 · 六维资产评分",
+      "category": "量化研究",
+      "description": "七类资产六维评分、国内期货技术状态及数据缺口。公开历史诊断快照，各格日期与严格口径分别展示。",
+      "url": "https://335083474.github.io/my-websites-hub/strategy-environment/",
+      "repo": "https://github.com/335083474/my-websites-hub/tree/main/strategy-environment",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "online",
+      "http": 200,
+      "checkedAt": "2026-11-01T13:31:07.641945+00:00",
+      "links": []
+    },
+    {
       "id": "futures-research",
       "title": "期货研究台 · 全流程管理",
       "category": "量化研究",

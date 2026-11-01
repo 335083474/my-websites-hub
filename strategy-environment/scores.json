@@ -1,0 +1,2047 @@
+{
+  "software_version": "1.0.0",
+  "model_version": "v001",
+  "cutoff": "2026-10-31T05:13:55.887736+00:00",
+  "monthly_cutoff": "2026-09-30T15:59:59.999999+00:00",
+  "summary": {
+    "assets": 7,
+    "dimensions": 6,
+    "cells": 42,
+    "historical_numeric_dimensions": 4,
+    "current_numeric_dimensions": 0,
+    "not_applicable": 3,
+    "futures_technical_numeric": 5
+  },
+  "computed_at_utc": "2026-10-31T05:13:59.158749+00:00",
+  "publication": {
+    "kind": "public_static_snapshot",
+    "exported_at_utc": "2026-11-01T13:32:11.836396+00:00",
+    "scope": "评分、状态与来源摘要；不含原始行情、历史输入序列或本地路径"
+  },
+  "assets": [
+    {
+      "id": "domestic_equities",
+      "name": "国内股票",
+      "proxy": "沪深300全收益及成分汇总",
+      "currency": "CNY",
+      "dimensions": {
+        "fundamentals": [
+          "cn_pmi:+",
+          "csi300_earnings_yoy:+"
+        ],
+        "valuation": [
+          "csi300_ep:+",
+          "csi300_pb:-"
+        ],
+        "capital_flows": [
+          "cn_equity_etf_flow:+",
+          "cn_funding_spread:-"
+        ],
+        "sentiment": [
+          "csi300_margin_ratio:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 cn_pmi；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_pmi",
+              "indicator_id": "cn_pmi"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "csi300_earnings_yoy",
+              "indicator_id": "csi300_earnings_yoy"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "csi300_ep",
+              "indicator_id": "csi300_ep"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "csi300_pb",
+              "indicator_id": "csi300_pb"
+            }
+          ]
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cn_equity_etf_flow；未绑定指标 cn_funding_spread",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_equity_etf_flow",
+              "indicator_id": "cn_equity_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_funding_spread",
+              "indicator_id": "cn_funding_spread"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 csi300_margin_ratio",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 csi300_margin_ratio",
+              "indicator_id": "csi300_margin_ratio"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": {
+          "score": null,
+          "status": "insufficient_history",
+          "status_label": "历史不足",
+          "reason": "未绑定指标 cn_pmi；此前60个月末的有效历史读数少于48个",
+          "evaluated_at": "2025-04-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_pmi",
+              "indicator_id": "cn_pmi"
+            },
+            {
+              "score": null,
+              "status": "insufficient_history",
+              "status_label": "历史不足",
+              "reason": "此前60个月末的有效历史读数少于48个",
+              "observed_at": "2025-04-30T15:59:59.999999+00:00",
+              "cutoff": "2025-04-30T15:59:59.999999+00:00",
+              "source_id": "csi300_earnings_yoy",
+              "indicator_id": "csi300_earnings_yoy",
+              "unit": "ratio",
+              "percentile": null,
+              "direction": 1,
+              "history_count": 9
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "insufficient_history",
+          "status_label": "历史不足",
+          "reason": "此前60个月末的有效历史读数少于48个",
+          "evaluated_at": "2026-07-31T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "insufficient_history",
+              "status_label": "历史不足",
+              "reason": "此前60个月末的有效历史读数少于48个",
+              "observed_at": "2026-07-31T15:59:59.999999+00:00",
+              "cutoff": "2026-07-31T15:59:59.999999+00:00",
+              "source_id": "csi300_ep",
+              "indicator_id": "csi300_ep",
+              "unit": "ratio",
+              "percentile": null,
+              "direction": 1,
+              "history_count": 40
+            },
+            {
+              "score": null,
+              "status": "insufficient_history",
+              "status_label": "历史不足",
+              "reason": "此前60个月末的有效历史读数少于48个",
+              "observed_at": "2026-07-31T15:59:59.999999+00:00",
+              "cutoff": "2026-07-31T15:59:59.999999+00:00",
+              "source_id": "csi300_pb",
+              "indicator_id": "csi300_pb",
+              "unit": "multiple",
+              "percentile": null,
+              "direction": -1,
+              "history_count": 44
+            }
+          ]
+        },
+        "capital_flows": null,
+        "sentiment": null,
+        "technicals": {
+          "score": 0.0,
+          "status": "diagnostic",
+          "status_label": "修订数据诊断",
+          "reason": "固定本地快照；历史版本与完整日历证据尚未全部核验",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "observed_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00",
+          "source_id": "csi300_tr",
+          "direction": "down",
+          "history_valid": {
+            "er": 756,
+            "vol": 756
+          },
+          "subscores": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "er_percentile": 0.5992063492063492,
+          "vol_percentile": 0.39021164021164023,
+          "strength": "middle",
+          "volatility": "normal"
+        },
+        "policy": null
+      }
+    },
+    {
+      "id": "overseas_equities",
+      "name": "海外股票",
+      "proxy": "标普500全收益及成分汇总 美股代理",
+      "currency": "USD",
+      "dimensions": {
+        "fundamentals": [
+          "us_ism_pmi:+",
+          "sp500_earnings_yoy:+"
+        ],
+        "valuation": [
+          "sp500_ep:+",
+          "sp500_pb:-"
+        ],
+        "capital_flows": [
+          "us_equity_etf_flow:+",
+          "fed_reserves_13w:+"
+        ],
+        "sentiment": [
+          "cftc_equity_net_long:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 us_ism_pmi；未绑定指标 sp500_earnings_yoy",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_ism_pmi",
+              "indicator_id": "us_ism_pmi"
+            },
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 sp500_earnings_yoy",
+              "indicator_id": "sp500_earnings_yoy"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 sp500_ep；未绑定指标 sp500_pb",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 sp500_ep",
+              "indicator_id": "sp500_ep"
+            },
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 sp500_pb",
+              "indicator_id": "sp500_pb"
+            }
+          ]
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 us_equity_etf_flow；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_equity_etf_flow",
+              "indicator_id": "us_equity_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cftc_equity_net_long",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cftc_equity_net_long",
+              "indicator_id": "cftc_equity_net_long"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "尚未绑定本版价格序列",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": null,
+        "valuation": null,
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 us_equity_etf_flow",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_equity_etf_flow",
+              "indicator_id": "us_equity_etf_flow"
+            },
+            {
+              "score": 61.66666666666667,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-24T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w",
+              "unit": "ratio",
+              "percentile": 0.6166666666666667,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "sentiment": null,
+        "technicals": null,
+        "policy": null
+      }
+    },
+    {
+      "id": "domestic_bonds",
+      "name": "国内债券",
+      "proxy": "7至10年中国国债总回报 具体指数待绑定",
+      "currency": "CNY",
+      "dimensions": {
+        "fundamentals": [
+          "cn_pmi:-",
+          "cn_cpi_yoy:-"
+        ],
+        "valuation": [
+          "cn_bond_real_proxy:+",
+          "cn_term_spread:+"
+        ],
+        "capital_flows": [
+          "cn_bond_etf_flow:+",
+          "cn_funding_spread:-"
+        ],
+        "sentiment": [
+          "cn_bond_turnover20:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 cn_pmi；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_pmi",
+              "indicator_id": "cn_pmi"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "cn_cpi_yoy",
+              "indicator_id": "cn_cpi_yoy"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "cn_bond_real_proxy",
+              "indicator_id": "cn_bond_real_proxy"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "cn_term_spread",
+              "indicator_id": "cn_term_spread"
+            }
+          ]
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cn_bond_etf_flow；未绑定指标 cn_funding_spread",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_bond_etf_flow",
+              "indicator_id": "cn_bond_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_funding_spread",
+              "indicator_id": "cn_funding_spread"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cn_bond_turnover20",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_bond_turnover20",
+              "indicator_id": "cn_bond_turnover20"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "尚未绑定本版价格序列",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cn_pmi",
+          "evaluated_at": "2022-01-31T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cn_pmi",
+              "indicator_id": "cn_pmi"
+            },
+            {
+              "score": 83.33333333333334,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2022-01-31T15:59:59.999999+00:00",
+              "cutoff": "2022-01-31T15:59:59.999999+00:00",
+              "source_id": "cn_cpi_yoy",
+              "indicator_id": "cn_cpi_yoy",
+              "unit": "percent",
+              "percentile": 0.16666666666666666,
+              "direction": -1,
+              "history_count": 60
+            }
+          ]
+        },
+        "valuation": {
+          "score": 66.66666666666666,
+          "status": "diagnostic",
+          "status_label": "修订数据诊断",
+          "reason": "必需指标固定等权；含历史修订或时间未验证数据",
+          "evaluated_at": "2022-03-31T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": 66.66666666666666,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2022-03-31T15:59:59.999999+00:00",
+              "cutoff": "2022-03-31T15:59:59.999999+00:00",
+              "source_id": "cn_bond_real_proxy",
+              "indicator_id": "cn_bond_real_proxy",
+              "unit": "percentage_points",
+              "percentile": 0.6666666666666666,
+              "direction": 1,
+              "history_count": 60
+            },
+            {
+              "score": 66.66666666666666,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2022-03-31T15:59:59.999999+00:00",
+              "cutoff": "2022-03-31T15:59:59.999999+00:00",
+              "source_id": "cn_term_spread",
+              "indicator_id": "cn_term_spread",
+              "unit": "percentage_points",
+              "percentile": 0.6666666666666666,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "capital_flows": null,
+        "sentiment": null,
+        "technicals": null,
+        "policy": null
+      }
+    },
+    {
+      "id": "overseas_bonds",
+      "name": "海外债券",
+      "proxy": "7至10年美国国债总回报 美债代理",
+      "currency": "USD",
+      "dimensions": {
+        "fundamentals": [
+          "us_ism_pmi:-",
+          "us_core_pce_yoy:-"
+        ],
+        "valuation": [
+          "us_bond_real_proxy:+",
+          "us_term_spread:+"
+        ],
+        "capital_flows": [
+          "us_bond_etf_flow:+",
+          "fed_reserves_13w:+"
+        ],
+        "sentiment": [
+          "cftc_treasury_net_long:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 us_ism_pmi；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_ism_pmi",
+              "indicator_id": "us_ism_pmi"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "us_core_pce_yoy",
+              "indicator_id": "us_core_pce_yoy"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "us_bond_real_proxy",
+              "indicator_id": "us_bond_real_proxy"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "us_term_spread",
+              "indicator_id": "us_term_spread"
+            }
+          ]
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 us_bond_etf_flow；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_bond_etf_flow",
+              "indicator_id": "us_bond_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cftc_treasury_net_long",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cftc_treasury_net_long",
+              "indicator_id": "cftc_treasury_net_long"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "尚未绑定本版价格序列",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 us_ism_pmi",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_ism_pmi",
+              "indicator_id": "us_ism_pmi"
+            },
+            {
+              "score": 60.0,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-01T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "us_core_pce_yoy",
+              "indicator_id": "us_core_pce_yoy",
+              "unit": "percent",
+              "percentile": 0.4,
+              "direction": -1,
+              "history_count": 60
+            }
+          ]
+        },
+        "valuation": {
+          "score": 91.66666666666667,
+          "status": "diagnostic",
+          "status_label": "修订数据诊断",
+          "reason": "必需指标固定等权；含历史修订或时间未验证数据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": 100.0,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-30T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "us_bond_real_proxy",
+              "indicator_id": "us_bond_real_proxy",
+              "unit": "percentage_points",
+              "percentile": 1.0,
+              "direction": 1,
+              "history_count": 60
+            },
+            {
+              "score": 83.33333333333334,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-30T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "us_term_spread",
+              "indicator_id": "us_term_spread",
+              "unit": "percentage_points",
+              "percentile": 0.8333333333333334,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 us_bond_etf_flow",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_bond_etf_flow",
+              "indicator_id": "us_bond_etf_flow"
+            },
+            {
+              "score": 61.66666666666667,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-24T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w",
+              "unit": "ratio",
+              "percentile": 0.6166666666666667,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "sentiment": null,
+        "technicals": null,
+        "policy": null
+      }
+    },
+    {
+      "id": "gold",
+      "name": "黄金",
+      "proxy": "美元黄金现货基准 待绑定",
+      "currency": "USD",
+      "dimensions": {
+        "fundamentals": [
+          "tips_10y:-",
+          "usd_broad:-"
+        ],
+        "valuation": null,
+        "capital_flows": [
+          "gold_etf_flow:+",
+          "fed_reserves_13w:+"
+        ],
+        "sentiment": [
+          "cftc_gold_net_long:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "tips_10y",
+              "indicator_id": "tips_10y"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "usd_broad",
+              "indicator_id": "usd_broad"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "not_applicable",
+          "status_label": "不适用",
+          "reason": "v001未设定该资产的统一估值锚",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00"
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 gold_etf_flow；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 gold_etf_flow",
+              "indicator_id": "gold_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cftc_gold_net_long",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cftc_gold_net_long",
+              "indicator_id": "cftc_gold_net_long"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "尚未绑定本版价格序列",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": {
+          "score": 23.333333333333332,
+          "status": "diagnostic",
+          "status_label": "修订数据诊断",
+          "reason": "必需指标固定等权；含历史修订或时间未验证数据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": 0.0,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-30T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "tips_10y",
+              "indicator_id": "tips_10y",
+              "unit": "percent",
+              "percentile": 1.0,
+              "direction": -1,
+              "history_count": 60
+            },
+            {
+              "score": 46.666666666666664,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-30T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "usd_broad",
+              "indicator_id": "usd_broad",
+              "unit": "index",
+              "percentile": 0.5333333333333333,
+              "direction": -1,
+              "history_count": 60
+            }
+          ]
+        },
+        "valuation": null,
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 gold_etf_flow",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 gold_etf_flow",
+              "indicator_id": "gold_etf_flow"
+            },
+            {
+              "score": 61.66666666666667,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-24T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w",
+              "unit": "ratio",
+              "percentile": 0.6166666666666667,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "sentiment": null,
+        "technicals": null,
+        "policy": null
+      }
+    },
+    {
+      "id": "crude_oil",
+      "name": "原油",
+      "proxy": "WTI近月信号序列 换月规则待绑定",
+      "currency": "USD",
+      "dimensions": {
+        "fundamentals": [
+          "global_pmi:+",
+          "us_oil_inventory_seasonal:-"
+        ],
+        "valuation": null,
+        "capital_flows": [
+          "oil_etf_flow:+",
+          "fed_reserves_13w:+"
+        ],
+        "sentiment": [
+          "cftc_oil_net_long:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 global_pmi；未绑定指标 us_oil_inventory_seasonal",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 global_pmi",
+              "indicator_id": "global_pmi"
+            },
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 us_oil_inventory_seasonal",
+              "indicator_id": "us_oil_inventory_seasonal"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "not_applicable",
+          "status_label": "不适用",
+          "reason": "v001未设定该资产的统一估值锚",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00"
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 oil_etf_flow；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 oil_etf_flow",
+              "indicator_id": "oil_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cftc_oil_net_long",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cftc_oil_net_long",
+              "indicator_id": "cftc_oil_net_long"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "尚未绑定本版价格序列",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": null,
+        "valuation": null,
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 oil_etf_flow",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 oil_etf_flow",
+              "indicator_id": "oil_etf_flow"
+            },
+            {
+              "score": 61.66666666666667,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-24T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w",
+              "unit": "ratio",
+              "percentile": 0.6166666666666667,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "sentiment": null,
+        "technicals": null,
+        "policy": null
+      }
+    },
+    {
+      "id": "commodities",
+      "name": "商品",
+      "proxy": "固定版本广义商品总回报指数 待绑定",
+      "currency": "USD",
+      "dimensions": {
+        "fundamentals": [
+          "global_pmi:+"
+        ],
+        "valuation": null,
+        "capital_flows": [
+          "commodity_etf_flow:+",
+          "fed_reserves_13w:+"
+        ],
+        "sentiment": [
+          "cftc_commodity_net_long:-"
+        ]
+      },
+      "current": {
+        "fundamentals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 global_pmi",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 global_pmi",
+              "indicator_id": "global_pmi"
+            }
+          ]
+        },
+        "valuation": {
+          "score": null,
+          "status": "not_applicable",
+          "status_label": "不适用",
+          "reason": "v001未设定该资产的统一估值锚",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00"
+        },
+        "capital_flows": {
+          "score": null,
+          "status": "unknown_availability",
+          "status_label": "可得时间未知",
+          "reason": "未绑定指标 commodity_etf_flow；未取得逐观察期的历史版本证据",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 commodity_etf_flow",
+              "indicator_id": "commodity_etf_flow"
+            },
+            {
+              "score": null,
+              "status": "unknown_availability",
+              "status_label": "可得时间未知",
+              "reason": "未取得逐观察期的历史版本证据",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w"
+            }
+          ]
+        },
+        "sentiment": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 cftc_commodity_net_long",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 cftc_commodity_net_long",
+              "indicator_id": "cftc_commodity_net_long"
+            }
+          ]
+        },
+        "technicals": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "尚未绑定本版价格序列",
+          "evaluated_at": "2026-10-31T05:13:55.887736+00:00"
+        },
+        "policy": {
+          "score": null,
+          "status": "coverage_incomplete",
+          "status_label": "检索覆盖不足",
+          "reason": "monetary 未提供截点前完整官方检索覆盖",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "cutoff": "2026-09-30T15:59:59.999999+00:00"
+        }
+      },
+      "historical": {
+        "fundamentals": null,
+        "valuation": null,
+        "capital_flows": {
+          "score": null,
+          "status": "missing",
+          "status_label": "缺少数据",
+          "reason": "未绑定指标 commodity_etf_flow",
+          "evaluated_at": "2026-09-30T15:59:59.999999+00:00",
+          "indicators": [
+            {
+              "score": null,
+              "status": "missing",
+              "status_label": "缺少数据",
+              "reason": "未绑定指标 commodity_etf_flow",
+              "indicator_id": "commodity_etf_flow"
+            },
+            {
+              "score": 61.66666666666667,
+              "status": "diagnostic",
+              "status_label": "修订数据诊断",
+              "reason": "历史修订或发布时间未验证，仅作诊断",
+              "observed_at": "2026-09-24T03:59:59.999999+00:00",
+              "cutoff": "2026-09-30T15:59:59.999999+00:00",
+              "source_id": "fed_reserves_13w",
+              "indicator_id": "fed_reserves_13w",
+              "unit": "ratio",
+              "percentile": 0.6166666666666667,
+              "direction": 1,
+              "history_count": 60
+            }
+          ]
+        },
+        "sentiment": null,
+        "technicals": null,
+        "policy": null
+      }
+    }
+  ],
+  "futures_extensions": [
+    {
+      "id": "IF",
+      "name": "沪深300股指期货",
+      "role": "国内期货独立技术应用，不替代原版资产代理",
+      "current": {
+        "score": null,
+        "status": "unknown_availability",
+        "status_label": "可得时间未知",
+        "reason": "未取得逐观察期的历史版本证据"
+      },
+      "historical": {
+        "score": 0.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "固定本地快照；历史版本与完整日历证据尚未全部核验",
+        "evaluated_at": "2026-10-23T15:59:59.999999+00:00",
+        "observed_at": "2026-10-23T15:59:59.999999+00:00",
+        "cutoff": "2026-10-23T15:59:59.999999+00:00",
+        "source_id": "future_IF",
+        "direction": "down",
+        "history_valid": {
+          "er": 756,
+          "vol": 756
+        },
+        "subscores": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "er_percentile": 0.8452380952380952,
+        "vol_percentile": 0.6957671957671958,
+        "strength": "strong",
+        "volatility": "normal"
+      }
+    },
+    {
+      "id": "T",
+      "name": "十年期国债期货",
+      "role": "国内期货独立技术应用，不替代原版资产代理",
+      "current": {
+        "score": null,
+        "status": "unknown_availability",
+        "status_label": "可得时间未知",
+        "reason": "未取得逐观察期的历史版本证据"
+      },
+      "historical": {
+        "score": 100.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "固定本地快照；历史版本与完整日历证据尚未全部核验",
+        "evaluated_at": "2026-10-23T15:59:59.999999+00:00",
+        "observed_at": "2026-10-23T15:59:59.999999+00:00",
+        "cutoff": "2026-10-23T15:59:59.999999+00:00",
+        "source_id": "future_T",
+        "direction": "up",
+        "history_valid": {
+          "er": 756,
+          "vol": 756
+        },
+        "subscores": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "er_percentile": 0.7447089947089947,
+        "vol_percentile": 0.2896825396825397,
+        "strength": "strong",
+        "volatility": "normal"
+      }
+    },
+    {
+      "id": "AU",
+      "name": "沪金期货",
+      "role": "国内期货独立技术应用，不替代原版资产代理",
+      "current": {
+        "score": null,
+        "status": "unknown_availability",
+        "status_label": "可得时间未知",
+        "reason": "未取得逐观察期的历史版本证据"
+      },
+      "historical": {
+        "score": 0.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "固定本地快照；历史版本与完整日历证据尚未全部核验",
+        "evaluated_at": "2026-10-23T15:59:59.999999+00:00",
+        "observed_at": "2026-10-23T15:59:59.999999+00:00",
+        "cutoff": "2026-10-23T15:59:59.999999+00:00",
+        "source_id": "future_AU",
+        "direction": "down",
+        "history_valid": {
+          "er": 756,
+          "vol": 756
+        },
+        "subscores": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "er_percentile": 0.2261904761904762,
+        "vol_percentile": 0.701058201058201,
+        "strength": "weak",
+        "volatility": "normal"
+      }
+    },
+    {
+      "id": "SC",
+      "name": "上海原油期货",
+      "role": "国内期货独立技术应用，不替代原版资产代理",
+      "current": {
+        "score": null,
+        "status": "unknown_availability",
+        "status_label": "可得时间未知",
+        "reason": "未取得逐观察期的历史版本证据"
+      },
+      "historical": {
+        "score": 100.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "固定本地快照；历史版本与完整日历证据尚未全部核验",
+        "evaluated_at": "2026-10-23T15:59:59.999999+00:00",
+        "observed_at": "2026-10-23T15:59:59.999999+00:00",
+        "cutoff": "2026-10-23T15:59:59.999999+00:00",
+        "source_id": "future_SC",
+        "direction": "up",
+        "history_valid": {
+          "er": 756,
+          "vol": 756
+        },
+        "subscores": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "er_percentile": 0.7645502645502645,
+        "vol_percentile": 0.8664021164021164,
+        "strength": "strong",
+        "volatility": "high"
+      }
+    },
+    {
+      "id": "CU",
+      "name": "沪铜期货",
+      "role": "国内期货独立技术应用，不替代原版资产代理",
+      "current": {
+        "score": null,
+        "status": "unknown_availability",
+        "status_label": "可得时间未知",
+        "reason": "未取得逐观察期的历史版本证据"
+      },
+      "historical": {
+        "score": 100.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "固定本地快照；历史版本与完整日历证据尚未全部核验",
+        "evaluated_at": "2026-10-23T15:59:59.999999+00:00",
+        "observed_at": "2026-10-23T15:59:59.999999+00:00",
+        "cutoff": "2026-10-23T15:59:59.999999+00:00",
+        "source_id": "future_CU",
+        "direction": "up",
+        "history_valid": {
+          "er": 756,
+          "vol": 756
+        },
+        "subscores": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "er_percentile": 0.458994708994709,
+        "vol_percentile": 0.3439153439153439,
+        "strength": "middle",
+        "volatility": "normal"
+      }
+    }
+  ],
+  "indicator_inventory": [
+    {
+      "entry": "cftc_commodity_net_long:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cftc_equity_net_long:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cftc_gold_net_long:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cftc_oil_net_long:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cftc_treasury_net_long:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_bond_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_bond_real_proxy:+",
+      "status": "bound",
+      "label": "10年中国国债减CPI 后视诊断代理",
+      "data_last": "2026-09-30",
+      "source_id": "cn_bond_real_proxy",
+      "latest_diagnostic": {
+        "score": 66.66666666666666,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2022-03-31T15:59:59.999999+00:00",
+        "cutoff": "2022-03-31T15:59:59.999999+00:00",
+        "source_id": "cn_bond_real_proxy",
+        "indicator_id": "cn_bond_real_proxy",
+        "unit": "percentage_points",
+        "percentile": 0.6666666666666666,
+        "direction": 1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "cn_bond_turnover20:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_cpi_yoy:-",
+      "status": "bound",
+      "label": "课程工作簿 CPI同比 原始百分数",
+      "data_last": "2022-01-31",
+      "source_id": "cn_cpi_yoy",
+      "latest_diagnostic": {
+        "score": 83.33333333333334,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2022-01-31T15:59:59.999999+00:00",
+        "cutoff": "2022-01-31T15:59:59.999999+00:00",
+        "source_id": "cn_cpi_yoy",
+        "indicator_id": "cn_cpi_yoy",
+        "unit": "percent",
+        "percentile": 0.16666666666666666,
+        "direction": -1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "cn_equity_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_funding_spread:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_pmi:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_pmi:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "cn_term_spread:+",
+      "status": "bound",
+      "label": "中国国债10年减1年期限利差",
+      "data_last": "2026-09-30",
+      "source_id": "cn_term_spread",
+      "latest_diagnostic": {
+        "score": 18.333333333333332,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-30T15:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "cn_term_spread",
+        "indicator_id": "cn_term_spread",
+        "unit": "percentage_points",
+        "percentile": 0.18333333333333332,
+        "direction": 1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "commodity_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "csi300_earnings_yoy:+",
+      "status": "bound",
+      "label": "沪深300自建成分汇总 earnings_yoy",
+      "data_last": "2026-07-31",
+      "source_id": "csi300_earnings_yoy",
+      "latest_diagnostic": {
+        "score": null,
+        "status": "insufficient_history",
+        "status_label": "历史不足",
+        "reason": "此前60个月末的有效历史读数少于48个",
+        "observed_at": "2025-04-30T15:59:59.999999+00:00",
+        "cutoff": "2025-04-30T15:59:59.999999+00:00",
+        "source_id": "csi300_earnings_yoy",
+        "indicator_id": "csi300_earnings_yoy",
+        "unit": "ratio",
+        "percentile": null,
+        "direction": 1,
+        "history_count": 9
+      }
+    },
+    {
+      "entry": "csi300_ep:+",
+      "status": "bound",
+      "label": "沪深300自建成分汇总 ep",
+      "data_last": "2026-07-31",
+      "source_id": "csi300_ep",
+      "latest_diagnostic": {
+        "score": null,
+        "status": "insufficient_history",
+        "status_label": "历史不足",
+        "reason": "此前60个月末的有效历史读数少于48个",
+        "observed_at": "2026-07-31T15:59:59.999999+00:00",
+        "cutoff": "2026-07-31T15:59:59.999999+00:00",
+        "source_id": "csi300_ep",
+        "indicator_id": "csi300_ep",
+        "unit": "ratio",
+        "percentile": null,
+        "direction": 1,
+        "history_count": 40
+      }
+    },
+    {
+      "entry": "csi300_margin_ratio:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "csi300_pb:-",
+      "status": "bound",
+      "label": "沪深300自建成分汇总 pb",
+      "data_last": "2026-07-31",
+      "source_id": "csi300_pb",
+      "latest_diagnostic": {
+        "score": null,
+        "status": "insufficient_history",
+        "status_label": "历史不足",
+        "reason": "此前60个月末的有效历史读数少于48个",
+        "observed_at": "2026-07-31T15:59:59.999999+00:00",
+        "cutoff": "2026-07-31T15:59:59.999999+00:00",
+        "source_id": "csi300_pb",
+        "indicator_id": "csi300_pb",
+        "unit": "multiple",
+        "percentile": null,
+        "direction": -1,
+        "history_count": 44
+      }
+    },
+    {
+      "entry": "fed_reserves_13w:+",
+      "status": "bound",
+      "label": "美联储准备金余额13周变化",
+      "data_last": "2026-10-28",
+      "source_id": "fed_reserves_13w",
+      "latest_diagnostic": {
+        "score": 61.66666666666667,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-24T03:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "fed_reserves_13w",
+        "indicator_id": "fed_reserves_13w",
+        "unit": "ratio",
+        "percentile": 0.6166666666666667,
+        "direction": 1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "global_pmi:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "gold_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "oil_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "sp500_earnings_yoy:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "sp500_ep:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "sp500_pb:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "tips_10y:-",
+      "status": "bound",
+      "label": "FRED DFII10",
+      "data_last": "2026-10-29",
+      "source_id": "tips_10y",
+      "latest_diagnostic": {
+        "score": 0.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-30T03:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "tips_10y",
+        "indicator_id": "tips_10y",
+        "unit": "percent",
+        "percentile": 1.0,
+        "direction": -1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "us_bond_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "us_bond_real_proxy:+",
+      "status": "bound",
+      "label": "10年美债减核心PCE 后视诊断代理",
+      "data_last": "2026-10-29",
+      "source_id": "us_bond_real_proxy",
+      "latest_diagnostic": {
+        "score": 100.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-30T03:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "us_bond_real_proxy",
+        "indicator_id": "us_bond_real_proxy",
+        "unit": "percentage_points",
+        "percentile": 1.0,
+        "direction": 1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "us_core_pce_yoy:-",
+      "status": "bound",
+      "label": "核心PCE同比 当前修订版",
+      "data_last": "2026-09-30",
+      "source_id": "us_core_pce_yoy",
+      "latest_diagnostic": {
+        "score": 60.0,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-01T03:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "us_core_pce_yoy",
+        "indicator_id": "us_core_pce_yoy",
+        "unit": "percent",
+        "percentile": 0.4,
+        "direction": -1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "us_equity_etf_flow:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "us_ism_pmi:+",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "us_ism_pmi:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "us_oil_inventory_seasonal:-",
+      "status": "missing",
+      "label": "未绑定",
+      "latest_diagnostic": null
+    },
+    {
+      "entry": "us_term_spread:+",
+      "status": "bound",
+      "label": "美国国债10年减1年期限利差",
+      "data_last": "2026-10-29",
+      "source_id": "us_term_spread",
+      "latest_diagnostic": {
+        "score": 83.33333333333334,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-30T03:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "us_term_spread",
+        "indicator_id": "us_term_spread",
+        "unit": "percentage_points",
+        "percentile": 0.8333333333333334,
+        "direction": 1,
+        "history_count": 60
+      }
+    },
+    {
+      "entry": "usd_broad:-",
+      "status": "bound",
+      "label": "FRED DTWEXBGS",
+      "data_last": "2026-10-23",
+      "source_id": "usd_broad",
+      "latest_diagnostic": {
+        "score": 46.666666666666664,
+        "status": "diagnostic",
+        "status_label": "修订数据诊断",
+        "reason": "历史修订或发布时间未验证，仅作诊断",
+        "observed_at": "2026-09-30T03:59:59.999999+00:00",
+        "cutoff": "2026-09-30T15:59:59.999999+00:00",
+        "source_id": "usd_broad",
+        "indicator_id": "usd_broad",
+        "unit": "index",
+        "percentile": 0.5333333333333333,
+        "direction": -1,
+        "history_count": 60
+      }
+    }
+  ],
+  "source_metadata": {
+    "series": {
+      "csi300_tr": {
+        "label": "沪深300全收益 H00300.CSI",
+        "unit": "index",
+        "frequency": "daily",
+        "first": "2005-01-04",
+        "last": "2026-09-30",
+        "rows": 5282,
+        "vintage_verified": false
+      },
+      "future_IF": {
+        "label": "IF 中国期货独立技术应用",
+        "unit": "adjusted_price",
+        "frequency": "daily",
+        "first": "2010-04-16",
+        "last": "2026-10-23",
+        "rows": 4011,
+        "vintage_verified": false
+      },
+      "future_T": {
+        "label": "T 中国期货独立技术应用",
+        "unit": "adjusted_price",
+        "frequency": "daily",
+        "first": "2015-03-20",
+        "last": "2026-10-23",
+        "rows": 2818,
+        "vintage_verified": false
+      },
+      "future_AU": {
+        "label": "AU 中国期货独立技术应用",
+        "unit": "adjusted_price",
+        "frequency": "daily",
+        "first": "2008-01-09",
+        "last": "2026-10-23",
+        "rows": 4564,
+        "vintage_verified": false
+      },
+      "future_SC": {
+        "label": "SC 中国期货独立技术应用",
+        "unit": "adjusted_price",
+        "frequency": "daily",
+        "first": "2018-03-26",
+        "last": "2026-10-23",
+        "rows": 2081,
+        "vintage_verified": false
+      },
+      "future_CU": {
+        "label": "CU 中国期货独立技术应用",
+        "unit": "adjusted_price",
+        "frequency": "daily",
+        "first": "2009-01-08",
+        "last": "2026-10-23",
+        "rows": 4320,
+        "vintage_verified": false
+      },
+      "csi300_ep": {
+        "label": "沪深300自建成分汇总 ep",
+        "unit": "ratio",
+        "frequency": "daily",
+        "first": "2015-01-30",
+        "last": "2026-07-31",
+        "rows": 139,
+        "vintage_verified": false
+      },
+      "csi300_pb": {
+        "label": "沪深300自建成分汇总 pb",
+        "unit": "multiple",
+        "frequency": "daily",
+        "first": "2015-01-30",
+        "last": "2026-07-31",
+        "rows": 139,
+        "vintage_verified": false
+      },
+      "csi300_earnings_yoy": {
+        "label": "沪深300自建成分汇总 earnings_yoy",
+        "unit": "ratio",
+        "frequency": "daily",
+        "first": "2015-01-30",
+        "last": "2026-07-31",
+        "rows": 139,
+        "vintage_verified": false
+      },
+      "cn_cpi_yoy": {
+        "label": "课程工作簿 CPI同比 原始百分数",
+        "unit": "percent",
+        "frequency": "monthly",
+        "first": "1987-01-31",
+        "last": "2022-01-31",
+        "rows": 421,
+        "vintage_verified": false
+      },
+      "cn_bond_real_proxy": {
+        "label": "10年中国国债减CPI 后视诊断代理",
+        "unit": "percentage_points",
+        "frequency": "daily",
+        "first": "2006-03-01",
+        "last": "2026-09-30",
+        "rows": 5150,
+        "vintage_verified": false
+      },
+      "cn_term_spread": {
+        "label": "中国国债10年减1年期限利差",
+        "unit": "percentage_points",
+        "frequency": "daily",
+        "first": "2006-03-01",
+        "last": "2026-09-30",
+        "rows": 5150,
+        "vintage_verified": false
+      },
+      "tips_10y": {
+        "label": "FRED DFII10",
+        "unit": "percent",
+        "frequency": "daily",
+        "first": "2003-01-02",
+        "last": "2026-10-29",
+        "rows": 5961,
+        "vintage_verified": false,
+        "official_url": "https://fred.stlouisfed.org/series/DFII10"
+      },
+      "usd_broad": {
+        "label": "FRED DTWEXBGS",
+        "unit": "index",
+        "frequency": "daily",
+        "first": "2006-01-02",
+        "last": "2026-10-23",
+        "rows": 5217,
+        "vintage_verified": false,
+        "official_url": "https://fred.stlouisfed.org/series/DTWEXBGS"
+      },
+      "fed_reserves_13w": {
+        "label": "美联储准备金余额13周变化",
+        "unit": "ratio",
+        "frequency": "weekly",
+        "first": "2002-12-18",
+        "last": "2026-10-28",
+        "rows": 1246,
+        "vintage_verified": false
+      },
+      "us_core_pce_yoy": {
+        "label": "核心PCE同比 当前修订版",
+        "unit": "percent",
+        "frequency": "monthly",
+        "first": "1959-01-31",
+        "last": "2026-09-30",
+        "rows": 813,
+        "vintage_verified": false
+      },
+      "us_bond_real_proxy": {
+        "label": "10年美债减核心PCE 后视诊断代理",
+        "unit": "percentage_points",
+        "frequency": "daily",
+        "first": "1962-01-02",
+        "last": "2026-10-29",
+        "rows": 16192,
+        "vintage_verified": false
+      },
+      "us_term_spread": {
+        "label": "美国国债10年减1年期限利差",
+        "unit": "percentage_points",
+        "frequency": "daily",
+        "first": "1962-01-02",
+        "last": "2026-10-29",
+        "rows": 16192,
+        "vintage_verified": false
+      }
+    }
+  }
+}
