@@ -150,7 +150,7 @@
   $('#coverage').textContent=`${activeSeries.name} ${activeSeries.code} · ${activeSeries.points[0][0]}—${activeSeries.points.at(-1)[0]}`;
   $('#markCounts').textContent=`${groups.length}个指数圆点 · ${groups.reduce((n,g)=>n+g.events.length,0)}条所选记录 · ${dateEvents('pending').length}条年份待核单列`;
   $('#missingNotice').hidden=!mapping.missing.length;
-  $('#missingNotice').textContent=`当前指数有 ${mapping.missing.length} 条提示因缺少对应行情未落点，仍可在日期菜单查看；切换万得全A可查看全部已标日期的提示。`;
+  $('#missingNotice').textContent=`当前指数有 ${mapping.missing.length} 条提示因缺少对应行情未落点，仍可在日期菜单查看；不同指数的行情覆盖日期不同。`;
   renderDetails();draw();
  }
  async function init(){
@@ -163,8 +163,8 @@
    const days=[...new Set(DATA.events.filter(e=>e.date).map(e=>e.date))].sort();days.forEach(day=>dateSelect.add(new Option(day+' · '+dateEvents(day).length+'条',day)));
    dateSelect.add(new Option('年份待核 · 7条','pending'));
    const latest=DATA.events.find(e=>e.id===DATA.meta.observationsReview.latestDisclosureId);
-   $('#latestPosition').innerHTML=`<span class="eyebrow">最近一次明确比例披露</span><strong>${latest.date} · ${positionLabel(latest)}</strong><p>${esc(latest.name)}。这是该资料日的自述，之后未披露日期不延续。</p><button type="button" data-jump-date="${latest.date}">查看原句 ↗</button>`;
-   $('#latestView').innerHTML='<span class="eyebrow">近期观点与条件</span><strong>底部附近，准备做反弹</strong><p>10月23日自述“很兴奋”；10月26日仍看近期反弹，也保留反弹后再下一个台阶的可能。满仓属于后续计划。</p><button type="button" data-jump-date="2026-10-26">查看观点与计划 ↗</button>';
+   $('#latestPosition').innerHTML=`<span class="eyebrow">最近收集到的仓位自述</span><strong>${latest.date} · ${positionLabel(latest)}</strong><p>${esc(latest.name)}。日期为群转发日，原始发言日期待核；未核账户和原音。</p><button type="button" data-jump-date="${latest.date}">查看原句 ↗</button>`;
+   $('#latestView').innerHTML='<span class="eyebrow">近期观点与条件</span><strong>看反弹，也提示短期分歧</strong><p>11月5日资料称反弹周期刚开始、分歧后仍看反弹；语音转写及发言日期仍待核。</p><button type="button" data-jump-date="2026-11-05">查看原句 ↗</button>';
    document.querySelectorAll('[data-jump-date]').forEach(button=>button.addEventListener('click',()=>{selectedDate=button.dataset.jumpDate;dateSelect.value=selectedDate;update();$('#selectedHeading').scrollIntoView({block:'start'});}));
    document.querySelectorAll('[data-layer]').forEach(input=>input.addEventListener('change',()=>{input.checked?visibleKinds.add(input.dataset.layer):visibleKinds.delete(input.dataset.layer);update();}));
    const requested=new URLSearchParams(location.search).get('date');selectedDate=days.includes(requested)?requested:days.at(-1);dateSelect.value=selectedDate;
