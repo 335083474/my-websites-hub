@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:08:40.084597+00:00",
+  "generated_at": "2026-11-07T00:08:02.098896+00:00",
   "public_metadata_only": true,
   "source_groups": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "verified",
       "name": "已验收研究定义",
-      "count": 34
+      "count": 48
     }
   ],
   "files": [
@@ -36,23 +36,23 @@
     },
     {
       "path": "data/management.seed.json",
-      "sha256": "f69621520eaa1e93974bd3c20aeb4932b393c47c2e313e103371baf186c1530f",
+      "sha256": "4ca06c2c468559ffac1ccfb8cbd75dbe5156113939347f89bb0dd7acfc50740b",
       "bytes": 1621
     },
     {
       "path": "data/snapshot.json",
-      "sha256": "f9b9fe6eec3bed20c44dad8bb5f6140671bec671730200fcbca9ef452b3c171f",
-      "bytes": 7539421
+      "sha256": "44d3ba61013909ca2a28ec5e63f50908f0af7d3009e92ba30b27d346ed17884a",
+      "bytes": 10190769
     },
     {
       "path": "index.html",
-      "sha256": "767fc0a7168fdb3cde814c0157bdcc21ee4d9a3f5845af1424f06a759c73d5c3",
+      "sha256": "452d7259b77b9be62a6a2e6664eb3e7775e647441e7cab540df9adc7d1e1946e",
       "bytes": 4265
     },
     {
       "path": "research.js",
-      "sha256": "eb09890ecfe34a9f2dbd65d4e9184d43a36582722e05392b9ab1e543bf7ee981",
-      "bytes": 17404
+      "sha256": "914dcc240f6cb4b0c04bc4d9b82fa15d00862255172c5d8f7f8066ccdab624a9",
+      "bytes": 18497
     },
     {
       "path": "styles.css",
