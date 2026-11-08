@@ -1,6 +1,6 @@
 window.RESEARCH_CATALOG = {
   "schemaVersion": 1,
-  "revision": "2026-11-08.8",
+  "revision": "2026-11-08.9",
   "updated": "2026-11-08",
   "title": "Jane Street 字段研究手册",
   "counts": {
@@ -4506,7 +4506,8 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_2",
@@ -4520,7 +4521,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4570,7 +4572,8 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_2",
@@ -4584,7 +4587,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4634,7 +4638,8 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_0",
@@ -4648,7 +4653,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4695,7 +4701,8 @@ window.RESEARCH_CATALOG = {
         "E10",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_5",
@@ -4708,7 +4715,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4755,7 +4763,8 @@ window.RESEARCH_CATALOG = {
         "E10",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_5",
@@ -4768,7 +4777,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4815,7 +4825,8 @@ window.RESEARCH_CATALOG = {
         "E10",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_3",
@@ -4828,7 +4839,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4878,7 +4890,8 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_8",
@@ -4892,7 +4905,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4941,7 +4955,8 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_8",
@@ -4955,7 +4970,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -5004,7 +5020,8 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E18",
         "E19",
-        "E20"
+        "E20",
+        "E21"
       ],
       "related": [
         "responder_6",
@@ -5018,7 +5035,8 @@ window.RESEARCH_CATALOG = {
         "C15",
         "C16",
         "C17",
-        "C18"
+        "C18",
+        "C19"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -5849,6 +5867,39 @@ window.RESEARCH_CATALOG = {
         "E20",
         "E07"
       ]
+    },
+    {
+      "id": "C19",
+      "title": "三组更像带方向的答案；尚未对应为收益率、波动率或其他经济量",
+      "state": "候选解释有强弱，经济身份未定",
+      "summary": "9列都有大量正负值。全历史比较中，第二、第三组的正负起伏联系明显强于“去掉正负号后的大小”联系。当前更支持不同定义的方向性目标，不能确认responder_6就是原始收益率。",
+      "facts": [
+        "三组2/0/1、5/3/4、8/6/7是按匿名标签和短中长窗口线索整理的分组，并非已经确认的三种经济指标。",
+        "全部47,127,338行中，9列的负数比例约50.25%—55.05%。按通常定义，未经变换的波动率不小于零；这些输出不是原样的非负波动率。",
+        "本轮固定同窗口的组间比较，分别对照原值、绝对值、平方。全历史每行等权，保留裁剪端点；另在每个标的日内分别扣除均值，检查去掉日级偏移后是否相同。",
+        "第二、第三组短/中/长对应列：5对8、3对6、4对7，原值相关约0.622/0.727/0.802；将第三组改成绝对值后，约0.041/0.092/0.140；改成平方后约0.057/0.124/0.179。",
+        "扣除每个标的当天均值后，第二、第三组原值相关约0.737/0.810/0.832，而与第三组绝对值的相关约0.049/0.100/0.134。均值是整天事后统计，不是实时特征。",
+        "第一组对第三组原值相关较弱且为负，约−0.150/−0.120/−0.096；与第三组绝对值约−0.005/−0.009/−0.012。本轮未找到第一组直接代表第三组波动大小的简单证据。"
+      ],
+      "hypothesis": "第二、第三组更像共享某种涨跌方向的不同目标定义；第一组可能反映不同基准、价差或残差信号。responder_6是加工后收益类目标的解释值得优先保留，但这些候选没有被命名。",
+      "unknown": "减去基准的波动率、波动变化、其他输入的波动率、不同窗口或非线性变换仍可能有正负值，简单同期相关不能排除它们。收益、价差、盈亏和残差都能带方向，也不能仅凭相关加以区分。官方说明数据含returns且目标匿名、裁剪；没有公布responder_6的精确经济公式。",
+      "fields": [
+        "responder_0",
+        "responder_1",
+        "responder_2",
+        "responder_3",
+        "responder_4",
+        "responder_5",
+        "responder_6",
+        "responder_7",
+        "responder_8"
+      ],
+      "evidence": [
+        "E21",
+        "E19",
+        "E20",
+        "E07"
+      ]
     }
   ],
   "sources": [
@@ -6278,6 +6329,29 @@ window.RESEARCH_CATALOG = {
         },
         {
           "title": "官方说明：匿名目标裁剪在−5至5",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/data"
+        }
+      ]
+    },
+    {
+      "id": "E21",
+      "title": "三组经济含义检查：正负方向与变化大小",
+      "file": "reports/return_volatility_hypothesis_20261108_v001/results.json",
+      "date": "2026-11-08",
+      "scope": "全部47,127,338行、50,382个标的日；三种窗口内所有有序组间配对，比较原值、绝对值和平方的同期相关。",
+      "sha256": "ebb862bfc586c890c57e099d3e81d445053c360141d4e5d83496d1a354d7ca80",
+      "findings": [
+        "第二、第三组的正负起伏相关，远强于其中一组对另一组绝对值或平方的相关。",
+        "9列都有大量负值；只排除直接输出未经变换非负波动率的简单版本。",
+        "扣除标的日均值后结论方向保留；没有识别收益单位、具体基准或精确经济公式。"
+      ],
+      "links": [
+        {
+          "title": "查看本轮解释与证据",
+          "url": "https://335083474.github.io/my-websites-hub/jane-street-fields/#claims/C19"
+        },
+        {
+          "title": "官方匿名目标与数据说明",
           "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/data"
         }
       ]
@@ -7489,6 +7563,12 @@ window.RESEARCH_CATALOG = {
   "history": [
     {
       "date": "2026-11-08",
+      "revision": "2026-11-08.9",
+      "title": "检查三组是否分别代表收益与波动",
+      "text": "新增C19/E21，全历史比较正负方向与绝对值、平方的关系。更支持带方向的目标，保留中心化波动等其他解释；未将responder_6确认为原始收益率。"
+    },
+    {
+      "date": "2026-11-08",
       "revision": "2026-11-08.8",
       "title": "深挖分布：尖峰、缩放与整天端点异常",
       "text": "新增3张研究图及C17/C18/E20：全历史逐标的日检查分布，128个额外日期复查窗口缩放，并重读核实50个整天端点常数组。保留处理公式和异常原因未知的边界。"
@@ -7574,5 +7654,5 @@ window.RESEARCH_CATALOG = {
       "meaning": "前面找到的规律，拿后面的数据再看看还成立不成立。"
     }
   ],
-  "builtAt": "2026-11-08T18:28:50.424303+08:00"
+  "builtAt": "2026-11-08T18:47:58.812125+08:00"
 };
