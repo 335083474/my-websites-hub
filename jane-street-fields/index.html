@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143f38">
+  <meta name="description" content="逐字段记录Jane Street匿名数据的已知事实、当前推测、未解问题与证据。">
+  <title>Jane Street · 字段研究手册</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./catalog-data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="研究手册首页"><span class="brand-mark">JS<span>·</span></span><span>字段研究手册<small>JANE STREET / RESEARCH NOTES</small></span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#overview" data-nav="overview">研究概览</a>
+      <a href="#fields/feature_61" data-nav="fields">逐字段看</a>
+      <a href="#relations" data-nav="relations">标的关系</a>
+      <a href="#claims" data-nav="claims">结论与证据</a>
+      <a href="#questions" data-nav="questions">还没弄清的</a>
+    </nav>
+    <button class="icon-button" id="help-button" aria-label="查看常用词解释" title="常用词解释">?</button>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><span><b>JS /</b> 一项项核对，一步步认识。</span><div><a href="#history">更新记录</a><button class="text-button" id="export-catalog">下载字段档案</button><a href="https://335083474.github.io/my-websites-hub/" target="_blank" rel="noopener">我的网站目录 ↗</a></div></footer>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><span class="eyebrow" id="dialog-eyebrow">研究资料</span><button class="icon-button close-dialog" aria-label="关闭">×</button></div><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请开启JavaScript查看103个字段、研究结论和证据。也可下载同目录中的catalog.json查看完整档案。</p></noscript>
+</body>
+</html>

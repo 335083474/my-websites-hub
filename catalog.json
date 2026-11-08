@@ -3,6 +3,34 @@
   "owner": "335083474",
   "projects": [
     {
+      "id": "jane-street-fields",
+      "title": "Jane Street · 字段研究手册",
+      "category": "量化研究",
+      "description": "逐字段查看已经知道、目前推测与未知问题，对应研究结论和证据；支持标的查询、阅读笔记和持续更新。",
+      "url": "https://335083474.github.io/my-websites-hub/jane-street-fields/",
+      "repo": "https://github.com/335083474/my-websites-hub/tree/main/jane-street-fields",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "unknown",
+      "http": null,
+      "links": [
+        {
+          "title": "逐字段查阅",
+          "url": "https://335083474.github.io/my-websites-hub/jane-street-fields/#fields/feature_61",
+          "kind": "page",
+          "status": "unknown",
+          "http": null
+        },
+        {
+          "title": "标的关系",
+          "url": "https://335083474.github.io/my-websites-hub/jane-street-fields/#relations",
+          "kind": "page",
+          "status": "unknown",
+          "http": null
+        }
+      ]
+    },
+    {
       "id": "strategy-environment",
       "title": "策略环境 · 六维资产评分",
       "category": "量化研究",
