@@ -110,7 +110,7 @@
     const section=parts[0]||'overview';
     document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===section;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     const dialog=document.getElementById('detail-dialog');if(dialog.open)dialog.close();
-    if(section==='overview')overview();else if(section==='fields')renderFields(parts[1]||'feature_61');else if(section==='relations')relations();else if(section==='claims')renderClaims(parts[1]);else if(section==='questions')questions();else if(section==='history')history();else notFound('可以从字段索引或研究概览重新开始。');
+    if(section==='overview')overview();else if(section==='fields')renderFields(parts[1]||'feature_61');else if(section==='relations')relations();else if(section==='claims')renderClaims(parts[1]);else if(section==='markets')window.renderMarketHours(main);else if(section==='questions')questions();else if(section==='history')history();else notFound('可以从字段索引或研究概览重新开始。');
     document.title=(section==='fields'&&fields.has(parts[1])?`${parts[1]} · `:'')+'Jane Street · 字段研究手册';
     if(section!=='claims'||!parts[1])window.scrollTo({top:0,behavior:'instant'});
   }
