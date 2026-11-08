@@ -29,7 +29,7 @@
       ['02','看看哪些标的有关联','先认识谁跟谁一起变化，再寻找真实身份。','39个匿名标的','#relations','有线索'],
       ['03','结论和证据放在一起','一句推测来自哪里，点开就能对应到记录。',`${D.claims.length}条研究结论`,'#claims','有线索'],
       ['04','还没弄清楚的问题','真实品种、年月日、每列含义，都明确保留未知。','6类核心问题','#questions','仍未知'],
-      ['05','先理解那9个参考答案','暂时把它们理解为三套“短一点、远一点”的答案。','计算方法仍未知','#claims/C04','有线索'],
+      ['05','把9列答案画出来看','看全历史分布，再看同一个标的一天怎样变化。','6张研究图','#responders','有线索'],
       ['06','这份手册会继续长大','保留新发现，也保留没有通过检查的旧猜测。','查看更新记录','#history','用途已知']
     ];
     main.innerHTML = `<div class="page">${intro('A WORKING FIELD GUIDE · VOL. 01','把匿名数字，<br>一项项读懂。','这里记录我们对这份数据知道了什么、正在猜什么、还有什么不知道。<br>先用直白的话看懂，再按需要展开数字与证据。')}
@@ -110,7 +110,7 @@
     const section=parts[0]||'overview';
     document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===section;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     const dialog=document.getElementById('detail-dialog');if(dialog.open)dialog.close();
-    if(section==='overview')overview();else if(section==='fields')renderFields(parts[1]||'feature_61');else if(section==='relations')relations();else if(section==='claims')renderClaims(parts[1]);else if(section==='markets')window.renderMarketHours(main);else if(section==='questions')questions();else if(section==='history')history();else notFound('可以从字段索引或研究概览重新开始。');
+    if(section==='overview')overview();else if(section==='fields')renderFields(parts[1]||'feature_61');else if(section==='relations')relations();else if(section==='claims')renderClaims(parts[1]);else if(section==='responders')window.renderResponderGallery(main,parts[1]);else if(section==='markets')window.renderMarketHours(main);else if(section==='questions')questions();else if(section==='history')history();else notFound('可以从字段索引或研究概览重新开始。');
     document.title=(section==='fields'&&fields.has(parts[1])?`${parts[1]} · `:'')+'Jane Street · 字段研究手册';
     if(section!=='claims'||!parts[1])window.scrollTo({top:0,behavior:'instant'});
   }
