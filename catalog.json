@@ -11,24 +11,25 @@
       "repo": "https://github.com/335083474/my-websites-hub/tree/main/jane-street-fields",
       "repoPrivate": false,
       "pagesEnabled": true,
-      "status": "unknown",
-      "http": null,
+      "status": "online",
+      "http": 200,
       "links": [
         {
           "title": "逐字段查阅",
           "url": "https://335083474.github.io/my-websites-hub/jane-street-fields/#fields/feature_61",
           "kind": "page",
-          "status": "unknown",
-          "http": null
+          "status": "online",
+          "http": 200
         },
         {
           "title": "标的关系",
           "url": "https://335083474.github.io/my-websites-hub/jane-street-fields/#relations",
           "kind": "page",
-          "status": "unknown",
-          "http": null
+          "status": "online",
+          "http": 200
         }
-      ]
+      ],
+      "checkedAt": "2026-11-08T13:55:25.905641+08:00"
     },
     {
       "id": "strategy-environment",
