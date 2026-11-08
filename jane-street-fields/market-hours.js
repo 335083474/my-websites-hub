@@ -16,7 +16,7 @@
       &&(state.asset==='全部资产'||r.asset===state.asset)&&(state.region==='全部地区'||r.region===state.region)
       &&(state.quality==='全部来源'||(state.quality==='官方资料'?r.quality.startsWith('官方'):r.quality===state.quality))
       &&(state.gap==='全部休息结构'||(state.gap==='段间有60分钟空档'?gaps(p).includes(60):p.segments.length===1&&1440-p.minutes===60)))
-      .sort((a,b)=>state.sort==='closest'?(Math.abs(a.p.minutes*60/state.freq-state.target)-Math.abs(b.p.minutes*60/state.freq-state.target)||a.r.name.localeCompare(b.r.name,'zh')):a.r.name.localeCompare(b.r.name,'zh'));
+      .sort((a,b)=>state.sort==='closest'?(Number(a.r.comparisonEligible===false)-Number(b.r.comparisonEligible===false)||Math.abs(a.p.minutes*60/state.freq-state.target)-Math.abs(b.p.minutes*60/state.freq-state.target)||a.r.name.localeCompare(b.r.name,'zh')):a.r.name.localeCompare(b.r.name,'zh'));
   }
   function update() {
     const data=resultSet(), pages=Math.max(1,Math.ceil(data.length/20)); state.page=Math.min(state.page,pages-1);
@@ -26,8 +26,8 @@
       const expected=p.minutes*60/state.freq, diff=expected-state.target;
       return `<tr><td><button class="mh-name" data-market="${esc(key)}">${esc(r.name)} <span>↗</span></button><small>${esc(r.asset)} · ${esc(r.region)}${r.profiles.length>1?` · 时段 ${i+1}/${r.profiles.length}`:''}</small><span class="mh-source ${r.quality.startsWith('官方')?'official':''}">${esc(r.quality)}</span></td>
       <td class="mh-session">${sessions(p).map(x=>`<span>${esc(x)}</span>`).join('')}<small>${esc(r.timezone)}</small></td>
-      <td><b>${duration(p.minutes)}</b><small>${num(p.minutes)} 分钟</small></td>
-      <td class="mh-compare"><b>${num(expected)}</b><small>相差 ${diff>0?'+':''}${num(diff)} 点</small></td>
+      <td>${r.comparisonEligible===false?'<small>库原值，不能视为净时长</small>':''}<b>${duration(p.minutes)}</b><small>${num(p.minutes)} 分钟</small></td>
+      <td class="mh-compare">${r.comparisonEligible===false?'<b style="font-size:14px">暂不比较</b><small>时段口径待核实<br>点名称看原因</small>':`<b>${num(expected)}</b><small>相差 ${diff>0?'+':''}${num(diff)} 点</small>`}</td>
       <td><span class="mh-period">${esc(r.period)}</span>${p.examples.length?`<small>样例 ${p.examples[0].date}<br>抽样出现 ${p.samples} 天${i>0?' · 非主要模式':''}</small>`:''}</td></tr>`;
     }).join(''):'<tr><td colspan="5" class="empty">没有符合条件的记录。可清除筛选，或换一个品种关键词。</td></tr>';
     document.getElementById('mh-page').textContent=`第 ${state.page+1} / ${pages} 页`;
@@ -39,7 +39,7 @@
     const {r,p}=item, gap=gaps(p);
     const dialog=document.getElementById('mh-dialog');
     document.getElementById('mh-detail').innerHTML=`<span class="eyebrow">时段与出处</span><h2 id="mh-detail-title">${esc(r.name)}</h2><p class="muted">${esc(r.quality)} · ${esc(r.period)}</p>
-      <div class="mh-detail-hours"><strong>${duration(p.minutes)}</strong><span>各段开市时间相加</span></div><p>${sessions(p).map(esc).join(' / ')}<br><small>当地时区 ${esc(r.timezone)}</small></p>
+      <div class="mh-detail-hours"><strong>${duration(p.minutes)}</strong><span>${r.comparisonEligible===false?'保留库原值，不能视为净开市时长':'各段开市时间相加'}</span></div><p>${sessions(p).map(esc).join(' / ')}<br><small>当地时区 ${esc(r.timezone)}</small></p>
       <p class="reading-banner">${gap.length?`所列各段之间的钟面空档：${gap.map(x=>num(x)+'分钟').join('、')}。空档可能是午休、日夜盘之间休市或其他暂停；周末另计。`:`本条只列一个连续开市区间。${p.minutes<1440?`一天剩余${num(1440-p.minutes)}分钟在此区间以外，不应自动称为午休。`:'通用全天模型不包含特定平台维护。'}`}</p>
       <h3>这条记录怎样使用</h3>${p.samples!=null?`<p>本模式在抽样中出现 ${p.samples} 天。少数日期的模式可能是提前收市、星期差异或年内改时，不能直接当成每天固定时段。</p>`:''}<ul>${r.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul>
       ${r.aliases.length?`<details><summary>库中的名称与别名（${r.aliases.length}个）</summary><p class="mh-aliases">${r.aliases.map(esc).join(' / ')}</p><p>同名、别名和重复模型不等于不同交易所，也不证明产品上市年份。</p></details>`:''}
@@ -50,8 +50,9 @@
   }
   window.renderMarketHours = main => {
     main.innerHTML=`<div class="page mh-page"><span class="eyebrow">GLOBAL MARKET HOURS · 全球时段对照</span><div class="intro"><div><h1>先看几点开市，<br>再比一天有多少点。</h1><p>把市场时段放到一起，寻找值得进一步核对的候选。<br>时长接近，只是一条线索；每条记录都能点开看出处。</p></div><div class="date-stamp">最近整理<b>${D.updated}</b><span>以2024样例与历史资料为主</span></div></div>
-      <div class="mh-summary"><div><strong>${D.rows.length}</strong><span>日历模型与官方记录</span></div><div><strong>${all.length}</strong><span>可比较的时段模式</span></div><div><strong>${new Set(D.rows.map(r=>r.asset)).size}</strong><span>资产类别 / 通用模型</span></div><div><strong>849 → 968</strong><span>待解释的每日观察点数</span></div></div>
+      <div class="mh-summary"><div><strong>${D.rows.length}</strong><span>日历模型与官方记录</span></div><div><strong>${all.length}</strong><span>收录的时段模式</span></div><div><strong>${new Set(D.rows.map(r=>r.asset)).size}</strong><span>资产类别 / 通用模型</span></div><div><strong>849 → 968</strong><span>待解释的每日观察点数</span></div></div>
       <div class="mh-caveat"><b>这是一份主要市场对照表，尚未覆盖全球所有合约。</b> 同一市场可能有多种模型。开源记录只抽取2024年1、7、11月各两周；官方记录各自注明年份。当前有 ${D.failures.length} 个日历提取失败，${D.excluded.length} 个业务日期模型不用于比较。</div>
+      <p class="reading-banner"><b>最新判断：</b>恒指类期货的一分钟总点数值得追查，但午休位置与全历史仍有反证；尚未确认任何真实标的。<a href="#claims/C13">查看候选与排除理由 →</a></p>
       <section class="mh-controls" aria-label="市场时段筛选"><div class="mh-search-row"><label class="mh-search">搜索市场或品种<input id="mh-search" type="search" placeholder="例如：黄金、铜、香港、CME、东京…" value="${esc(state.q)}"></label><button id="mh-reset" class="button outline">清除筛选</button></div><div class="mh-filters">
       <label>资产类别<select id="mh-asset">${options(['全部资产',...new Set(D.rows.map(r=>r.asset))])}</select></label>
       <label>地区<select id="mh-region">${options(['全部地区',...new Set(D.rows.map(r=>r.region))])}</select></label>

@@ -1,6 +1,6 @@
 window.RESEARCH_CATALOG = {
   "schemaVersion": 1,
-  "revision": "2026-11-08.3",
+  "revision": "2026-11-08.4",
   "updated": "2026-11-08",
   "title": "Jane Street 字段研究手册",
   "counts": {
@@ -33,7 +33,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E11",
         "E13",
-        "E14"
+        "E14",
+        "E15"
       ],
       "related": [
         "time_id",
@@ -43,7 +44,8 @@ window.RESEARCH_CATALOG = {
         "C07",
         "C02",
         "C10",
-        "C12"
+        "C12",
+        "C13"
       ],
       "files": [
         "训练数据",
@@ -87,7 +89,8 @@ window.RESEARCH_CATALOG = {
         "E11",
         "E12",
         "E13",
-        "E14"
+        "E14",
+        "E15"
       ],
       "related": [
         "date_id",
@@ -100,7 +103,8 @@ window.RESEARCH_CATALOG = {
         "C08",
         "C10",
         "C11",
-        "C12"
+        "C12",
+        "C13"
       ],
       "files": [
         "训练数据",
@@ -138,7 +142,8 @@ window.RESEARCH_CATALOG = {
       "evidence": [
         "E01",
         "E04",
-        "E05"
+        "E05",
+        "E15"
       ],
       "related": [
         "feature_09",
@@ -149,7 +154,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C01",
         "C05",
-        "C08"
+        "C08",
+        "C13"
       ],
       "files": [
         "训练数据",
@@ -5513,6 +5519,37 @@ window.RESEARCH_CATALOG = {
         "E13",
         "E14"
       ]
+    },
+    {
+      "id": "C13",
+      "title": "哪些标的值得先追查？总时长接近还没有认出身份",
+      "state": "有线索",
+      "summary": "恒指类期货的一分钟时段840→960，最值得做针对性核对；但午休与全历史仍不吻合。美股扩展时段要先额外扣60点才接近。常见商品没有通过完整交易日匹配，仍可能是截取或加工后的数据。",
+      "facts": [
+        "按一分钟且不扣空白，恒指历史净交易840→960分钟，与849→968相差9/8点。9/8点的来源尚无证据。",
+        "如果真把前段60点当保留在编号中的午休，待解释净交易应改为789→968；恒指原来的近似就不成立。",
+        "恒指日盘09:15到12:00仅165分钟，不能直接对应369号附近的空白；2019扩夜盘也未取消午休。完整连续历史还应包含2017年另一次75分钟扩时。",
+        "Nasdaq 2013扩展时段由07:00–20:00改04:00–20:00，即780→960分钟；它只在额外扣掉前段60点后才与789→968相近，且没有固定午休。",
+        "香港金属小型期货一分钟915→1035，分别比数据多66/67点；上期所基本金属按30秒约930点，后段仍少38点，120分钟午休也不是60个30秒点。",
+        "巴西两库的7/8小时按30秒也能凑到840→960，但官方2020年3月又改回较短常规时段；不能用永久扩时解释后1022天固定长度。",
+        "本轮读取139条时段记录，排除4条已发现口径问题的模型，以每条最常见样例做6种单段比较，共810项；未用少数提前收市日来改善匹配。"
+      ],
+      "hypothesis": "先核对恒指/国企指数相关期货的真实日内活跃位置；美股/ETF扩展时段保留为有额外假设的另一方向。此处是研究次序，不是概率排名，不给任何symbol_id命名。",
+      "unknown": "还没有候选同时解释849→968、369起的1/10/60点恢复、整个1699天的历史变化与标的间关系。统一采样窗口和计算规则变化仍需调查；目前也不能排除只取一部分时段的商品期货数据。",
+      "fields": [
+        "time_id",
+        "date_id",
+        "symbol_id",
+        "feature_39",
+        "feature_40",
+        "feature_41"
+      ],
+      "evidence": [
+        "E15",
+        "E12",
+        "E13",
+        "E14"
+      ]
     }
   ],
   "sources": [
@@ -5757,6 +5794,58 @@ window.RESEARCH_CATALOG = {
         {
           "title": "NSE市场时段",
           "url": "https://www.nseindia.com/static/market-data/market-timings"
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "title": "全球时段候选初筛与口径复核",
+      "date": "2026-11-08",
+      "scope": "139条时段记录，6种频率/点数情景的810项有效单段比较，7组候选解释；复用既有全历史空白检查，未新增原始行情全量扫描。",
+      "file": "reports/instrument_candidates_20261108_v001/screen.json",
+      "sha256": "c0a8e2aff3cb4d64d720b8f094e013128f8744469db35fe54701f7e1d2929a71",
+      "findings": [
+        "没有候选同时通过总时长、空白位置与完整历史核对；恒指类时钟值得针对性检查但不是身份确认。",
+        "Nasdaq的近似依赖扣除60点，巴西的近似受到随后改时的反证；不能把多余点或缺失字段随意解释成交易阶段。",
+        "XSES未扣午休、XKLS午休口径待核、BMF/BVMF历史模型不完整，均保留原始库值并暂停点数排名。",
+        "所有symbol真实身份仍未知；单段排序是差值，不是属于某市场的概率。"
+      ],
+      "links": [
+        {
+          "title": "港交所恒指/国企指数及相关小型股指期货 · 核对资料",
+          "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2019/MO_DT_080_19_e.pdf"
+        },
+        {
+          "title": "港交所恒指/国企指数及相关小型股指期货 · 核对资料",
+          "url": "https://www.hkex.com.hk/News/Market-Communications/2017/171012news?sc_lang=en"
+        },
+        {
+          "title": "美国股票/ETF扩展交易，特别是Nasdaq 2013规则 · 核对资料",
+          "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2013-21"
+        },
+        {
+          "title": "香港伦敦金属小型/铁矿石期货 · 核对资料",
+          "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Rules-and-Forms-and-Fees/Rules/HKFE/Rule-Update_Rules-Regulations-and-Procedures-of-the-Futures-Exchange/56_19_HKFE_Trading_Hours_Extension_3am_e_markup.pdf"
+        },
+        {
+          "title": "上期所铜铝等基本金属 · 核对资料",
+          "url": "https://www.shfe.com.cn/services/calenderandholidays/tradinghours/"
+        },
+        {
+          "title": "印度MCX天然气等非农商品 · 核对资料",
+          "url": "https://www.jainam.in/wp-content/uploads/2024/08/circular-497-2024.pdf"
+        },
+        {
+          "title": "COMEX标准黄金，类似23小时电子盘商品 · 核对资料",
+          "url": "https://www.cmegroup.com/content/dam/cmegroup/market-regulation/files/gold-futures-and-options-fact-card.pdf"
+        },
+        {
+          "title": "巴西B3股票：两套日历凑出的表面吻合 · 核对资料",
+          "url": "https://www.b3.com.br/data/files/EC/B1/BD/2D/A8B4D6107C4D14D6AC094EA8/OC%20070-2019%20Novos%20Hor%C3%A1rios%20de%20Negocia%C3%A7%C3%A3o%20-%20Segmento%20BMF%20e%20Bovespa%20%28ING%29.pdf"
+        },
+        {
+          "title": "巴西B3股票：两套日历凑出的表面吻合 · 核对资料",
+          "url": "https://ww69.itau.com.br/fileserver/relatorios/b3_oficio_circular_06022020.pdf"
         }
       ]
     }
@@ -6967,6 +7056,12 @@ window.RESEARCH_CATALOG = {
   "history": [
     {
       "date": "2026-11-08",
+      "revision": "2026-11-08.4",
+      "title": "根据全球时段筛选标的候选，保留反证",
+      "text": "比较两段点数、午休位置与实际扩时历史；新增C13。恒指类时钟值得追查但不确认身份；美股需额外假设，商品未匹配完整日。另标注4条开源日历的午休或历史口径问题，暂停其点数排名。"
+    },
+    {
+      "date": "2026-11-08",
       "revision": "2026-11-08.3",
       "title": "新增全球市场时段对照",
       "text": "新增主要市场开市时段查询，区分开源2024样例、官方历史资料与现行规则；支持按地区、资产、休息结构筛选，试算不同采样频率下的849/968点匹配。保存来源与提取失败，不把时长接近当成身份确认。"
@@ -7022,5 +7117,5 @@ window.RESEARCH_CATALOG = {
       "meaning": "前面找到的规律，拿后面的数据再看看还成立不成立。"
     }
   ],
-  "builtAt": "2026-11-08T14:47:40.456674+08:00"
+  "builtAt": "2026-11-08T15:13:02.302057+08:00"
 };

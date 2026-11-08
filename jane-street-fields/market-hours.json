@@ -136,7 +136,7 @@
       "asset": "股票与 ETF",
       "region": "拉丁美洲",
       "timezone": "America/Sao_Paulo",
-      "quality": "开源日历",
+      "quality": "存在口径差异",
       "period": "2024样例 / 库规则，历史适用性待核实",
       "profiles": [
         {
@@ -215,11 +215,16 @@
         ]
       },
       "notes": [
+        "与BVMF模型分别给出420/480分钟，不能把两库差异直接拼成永久扩时。B3官方2019-11变更在2020-03再改：现货收盘竞价末端18:00回到17:00，盘后另列。历史阶段与季节规则需逐日核实。",
         "开源模型输出；只抽取2024年1、7、11月各两周，未逐交易所核实全年或全部历史。",
         "别名是库中的映射，不证明全部产品在2024年已上市或一直使用同样时段。",
         "仅计算开市区间；未自动加入盘前、盘后、竞价及库未建模的中断。"
       ],
       "sources": [
+        {
+          "title": "本轮复核依据（B3通告由银行托管；马来西亚为券商说明）",
+          "url": "https://ww69.itau.com.br/fileserver/relatorios/b3_oficio_circular_06022020.pdf"
+        },
         {
           "title": "pandas_market_calendars / bmf.py",
           "url": "https://github.com/rsheftel/pandas_market_calendars/blob/master/pandas_market_calendars/calendars/bmf.py"
@@ -228,7 +233,8 @@
           "title": "开源日历覆盖与定义说明",
           "url": "https://pandas-market-calendars.readthedocs.io/en/latest/calendars.html"
         }
-      ]
+      ],
+      "comparisonEligible": false
     },
     {
       "id": "BSE",
@@ -7802,7 +7808,7 @@
       "asset": "股票与 ETF",
       "region": "拉丁美洲",
       "timezone": "America/Sao_Paulo",
-      "quality": "开源日历",
+      "quality": "存在口径差异",
       "period": "2024样例 / 库规则，历史适用性待核实",
       "profiles": [
         {
@@ -7885,11 +7891,16 @@
         ]
       },
       "notes": [
+        "库把2019-11-04后的收市固定为18:00；B3的2020-03-09原通告已把现货连续交易末端改为16:55、收盘竞价末端17:00，另有盘后。不可把此模型当永久480分钟历史。",
         "开源模型输出；只抽取2024年1、7、11月各两周，未逐交易所核实全年或全部历史。",
         "别名是库中的映射，不证明全部产品在2024年已上市或一直使用同样时段。",
         "仅计算开市区间；未自动加入盘前、盘后、竞价及库未建模的中断。"
       ],
       "sources": [
+        {
+          "title": "本轮复核依据（B3通告由银行托管；马来西亚为券商说明）",
+          "url": "https://ww69.itau.com.br/fileserver/relatorios/b3_oficio_circular_06022020.pdf"
+        },
         {
           "title": "exchange_calendars / exchange_calendar_bvmf.py",
           "url": "https://github.com/gerrymanoim/exchange_calendars/blob/master/exchange_calendars/exchange_calendar_bvmf.py"
@@ -7898,7 +7909,8 @@
           "title": "开源日历覆盖与定义说明",
           "url": "https://pandas-market-calendars.readthedocs.io/en/latest/calendars.html"
         }
-      ]
+      ],
+      "comparisonEligible": false
     },
     {
       "id": "XCYS",
@@ -11113,7 +11125,7 @@
       "asset": "股票与 ETF",
       "region": "亚洲",
       "timezone": "Asia/Kuala_Lumpur",
-      "quality": "开源日历",
+      "quality": "存在口径差异",
       "period": "2024样例 / 库规则，历史适用性待核实",
       "profiles": [
         {
@@ -11192,11 +11204,16 @@
         ]
       },
       "notes": [
+        "本库09:00–17:00未建模午休；本次核对的券商交易说明列有12:30–14:30间隔及收盘阶段。交易所正文读取403，暂不把480分钟当净交易时长排名。",
         "开源模型输出；只抽取2024年1、7、11月各两周，未逐交易所核实全年或全部历史。",
         "别名是库中的映射，不证明全部产品在2024年已上市或一直使用同样时段。",
         "仅计算开市区间；未自动加入盘前、盘后、竞价及库未建模的中断。"
       ],
       "sources": [
+        {
+          "title": "本轮复核依据（B3通告由银行托管；马来西亚为券商说明）",
+          "url": "https://www.hlisb.com.my/content/dam/hlb/my/docs/pdf/Personal/Deposit/Pay-And-Save-Account/share-trading-account/hlb-pay-and-save-account-i-faq.pdf"
+        },
         {
           "title": "exchange_calendars / exchange_calendar_xkls.py",
           "url": "https://github.com/gerrymanoim/exchange_calendars/blob/master/exchange_calendars/exchange_calendar_xkls.py"
@@ -11205,7 +11222,8 @@
           "title": "开源日历覆盖与定义说明",
           "url": "https://pandas-market-calendars.readthedocs.io/en/latest/calendars.html"
         }
-      ]
+      ],
+      "comparisonEligible": false
     },
     {
       "id": "XKRX",
@@ -13201,7 +13219,7 @@
       "asset": "股票与 ETF",
       "region": "亚洲",
       "timezone": "Asia/Singapore",
-      "quality": "开源日历",
+      "quality": "存在口径差异",
       "period": "2024样例 / 库规则，历史适用性待核实",
       "profiles": [
         {
@@ -13280,11 +13298,16 @@
         ]
       },
       "notes": [
+        "本库09:00–17:00未建模午休；SGX规则的连续交易实际分09:00–12:00、13:00–17:00，总420分钟。480分钟只是外层跨度，不能据此匹配968点。请使用本表官方SGX记录。",
         "开源模型输出；只抽取2024年1、7、11月各两周，未逐交易所核实全年或全部历史。",
         "别名是库中的映射，不证明全部产品在2024年已上市或一直使用同样时段。",
         "仅计算开市区间；未自动加入盘前、盘后、竞价及库未建模的中断。"
       ],
       "sources": [
+        {
+          "title": "本轮复核依据（B3通告由银行托管；马来西亚为券商说明）",
+          "url": "https://rulebook.sgx.com/rulebook/regulatory-notice-821-trading-hours-market-phases-application-market-phases-and-principles"
+        },
         {
           "title": "exchange_calendars / exchange_calendar_xses.py",
           "url": "https://github.com/gerrymanoim/exchange_calendars/blob/master/exchange_calendars/exchange_calendar_xses.py"
@@ -13293,7 +13316,8 @@
           "title": "开源日历覆盖与定义说明",
           "url": "https://pandas-market-calendars.readthedocs.io/en/latest/calendars.html"
         }
-      ]
+      ],
+      "comparisonEligible": false
     },
     {
       "id": "XSHG",
