@@ -1,6 +1,6 @@
 window.RESEARCH_CATALOG = {
   "schemaVersion": 1,
-  "revision": "2026-11-08.5",
+  "revision": "2026-11-08.6",
   "updated": "2026-11-08",
   "title": "Jane Street 字段研究手册",
   "counts": {
@@ -37,7 +37,8 @@ window.RESEARCH_CATALOG = {
         "E14",
         "E15",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "time_id",
@@ -49,7 +50,8 @@ window.RESEARCH_CATALOG = {
         "C10",
         "C12",
         "C13",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据",
@@ -80,7 +82,8 @@ window.RESEARCH_CATALOG = {
         "切换恰在676号日期之后；676和677两天都有同样29个标的，分类编码09/10/11没有变化。",
         "前677天，每天从369号点起，四组字段分别共同空1、10、60点；后1022天这三档中间空白都消失。",
         "同一行里，短档字段可以已有值，长档字段仍为空；不能把整个60点都解释为市场停市。",
-        "新复核：每天多119点的同时，369处旧的特征/目标边界消失；尚未定位新增点，不能直接按延长交易时间解释。"
+        "新复核：每天多119点的同时，369处旧的特征/目标边界消失；尚未定位新增点，不能直接按延长交易时间解释。",
+        "主办方2024-11-04明确答复：训练集内同一time_id在不同日期不保证同一真实钟点，映射可能发生罕见的阶段变化。本轮已在浏览器读到原帖。"
       ],
       "guess": "观察安排与部分字段的可用性同时改变。可能涉及计算重启、来源或市场时段变化；30秒、1分钟仍只是候选。",
       "unknown": [
@@ -97,7 +100,8 @@ window.RESEARCH_CATALOG = {
         "E14",
         "E15",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "date_id",
@@ -112,7 +116,8 @@ window.RESEARCH_CATALOG = {
         "C11",
         "C12",
         "C13",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据",
@@ -151,7 +156,8 @@ window.RESEARCH_CATALOG = {
         "E01",
         "E04",
         "E05",
-        "E15"
+        "E15",
+        "E18"
       ],
       "related": [
         "feature_09",
@@ -163,7 +169,8 @@ window.RESEARCH_CATALOG = {
         "C01",
         "C05",
         "C08",
-        "C13"
+        "C13",
+        "C15"
       ],
       "files": [
         "训练数据",
@@ -4490,7 +4497,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E10",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "responder_2",
@@ -4500,7 +4508,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C04",
         "C09",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4547,7 +4556,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E10",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "responder_2",
@@ -4557,7 +4567,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C04",
         "C09",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4604,7 +4615,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E10",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "responder_0",
@@ -4614,7 +4626,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C04",
         "C09",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4658,7 +4671,8 @@ window.RESEARCH_CATALOG = {
         "E01",
         "E03",
         "E07",
-        "E10"
+        "E10",
+        "E18"
       ],
       "related": [
         "responder_5",
@@ -4667,7 +4681,8 @@ window.RESEARCH_CATALOG = {
       ],
       "claims": [
         "C04",
-        "C09"
+        "C09",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4711,7 +4726,8 @@ window.RESEARCH_CATALOG = {
         "E01",
         "E03",
         "E07",
-        "E10"
+        "E10",
+        "E18"
       ],
       "related": [
         "responder_5",
@@ -4720,7 +4736,8 @@ window.RESEARCH_CATALOG = {
       ],
       "claims": [
         "C04",
-        "C09"
+        "C09",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4764,7 +4781,8 @@ window.RESEARCH_CATALOG = {
         "E01",
         "E03",
         "E07",
-        "E10"
+        "E10",
+        "E18"
       ],
       "related": [
         "responder_3",
@@ -4773,7 +4791,8 @@ window.RESEARCH_CATALOG = {
       ],
       "claims": [
         "C04",
-        "C09"
+        "C09",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4820,7 +4839,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E10",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "responder_8",
@@ -4830,7 +4850,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C04",
         "C09",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4876,7 +4897,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E10",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "responder_8",
@@ -4886,7 +4908,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C04",
         "C09",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -4932,7 +4955,8 @@ window.RESEARCH_CATALOG = {
         "E07",
         "E10",
         "E16",
-        "E17"
+        "E17",
+        "E18"
       ],
       "related": [
         "responder_6",
@@ -4942,7 +4966,8 @@ window.RESEARCH_CATALOG = {
       "claims": [
         "C04",
         "C09",
-        "C14"
+        "C14",
+        "C15"
       ],
       "files": [
         "训练数据；当前真实值只用于事后核对"
@@ -5638,6 +5663,43 @@ window.RESEARCH_CATALOG = {
         "E17",
         "E12"
       ]
+    },
+    {
+      "id": "C15",
+      "title": "社区也猜过分钟、美股16小时和活跃期货：身份仍未确认",
+      "state": "有线索",
+      "summary": "找到原始讨论与前列作者代码。主办方确认time_id到真实钟点的对应关系可能分阶段变化；参赛者提出4/20/120步窗口、美股16小时和活跃期货等解释。窗口线索较强，市场与symbol身份仍是猜测。",
+      "facts": [
+        "主办方M Desai在2024-11-04答复：训练集不同日期的同一个time_id不保证对应同一个真实钟点；这种映射阶段变化预期很少见。此条已读取浏览器渲染的完整原帖，不再只有搜索摘录。",
+        "John Payne在Reverse Engineering the Responders中，根据自相关与频谱推测responder_6/7/8有20/120/4步的平滑窗口关系，并进一步猜为分钟收益。后半部分属于解释，非官方定义。",
+        "同帖还提出不同交易所收益及差值的解释，评论有买卖报价收益的解释。本轮没有发现经过验证的对应交易所或具体公式，不能把差值近似写成精确恒等式。",
+        "Jim Beno在968 Time IDs = 16 Hours?里猜美股04:00—20:00，按比例分成0—331、332—724、725—967三段。作者也承认可能强行拟合；这些编号不是从真实时钟恢复的开收盘。",
+        "该16小时帖的评论已有人提到旧date0—676/time369—848块向末尾移动；与我们研究的断点相关，但仍只是候选对齐方案。",
+        "Tucker Arrants在Some domain knowledge猜活跃的美国国债、股指、原油/天然气、黄金及外汇期货，还猜缺失与算法系统演进有关。没有给出symbol真实名称证据。该帖本轮读取到搜索索引正文，未另用浏览器全页核验。",
+        "第八名作者确实把窗口相关目标用于辅助训练，并自报约+0.001的CV/LB改善；这支持研究用途，不确认分钟或价格公式。文章写day，但示例代码按同一symbol的记录移位，不能据此解释为20天。",
+        "第八名从date700选样是建模选择；另一个作者代码已注明677之后稳定968点。都不能当作真实年份或市场扩时的证据。"
+      ],
+      "hypothesis": "保留两个需要分别验证的方向：输入和目标的加工窗口，以及真实市场时钟/产品。公开方案给了窗口结构的支持，没有替代真实市场映射的核验。",
+      "unknown": "没有找到经独立数据验证的symbol名称映射、集合竞价字段定义、849→968真实年月日或全局一分钟频率。feature_61真实经济含义也仍未知。",
+      "fields": [
+        "time_id",
+        "date_id",
+        "symbol_id",
+        "responder_0",
+        "responder_1",
+        "responder_2",
+        "responder_3",
+        "responder_4",
+        "responder_5",
+        "responder_6",
+        "responder_7",
+        "responder_8"
+      ],
+      "evidence": [
+        "E18",
+        "E16",
+        "E17"
+      ]
     }
   ],
   "sources": [
@@ -5977,6 +6039,53 @@ window.RESEARCH_CATALOG = {
       ],
       "sha256": "7a761b6366949bec4cdfee1e2bc910410be6899a5eacaa8453118df30669d880",
       "links": []
+    },
+    {
+      "id": "E18",
+      "title": "社区推测原帖、主办方时钟答复与作者代码核对",
+      "file": "reports/community_hypotheses_20261108_v001/sources.json",
+      "date": "2026-11-08",
+      "scope": "公开原帖、作者复盘和代码；不声称穷尽讨论区或私域Discord。",
+      "sha256": "46f9015f4cab1ca252bb92fba210da74ba3c819b8b80000d56067a9345243f2f",
+      "findings": [
+        "窗口结构的证据比真实品种身份强。社区已有分钟、16小时美股、活跃期货等假说，没有在本轮找到经独立数据验证的symbol名称映射或849→968真实日期解释。",
+        "三篇关键原帖浏览器渲染已读；作者方法与官方答复、参赛者解释分开。",
+        "20-day措辞与按记录shift的代码不同，不把窗口长度换成天或分钟。"
+      ],
+      "links": [
+        {
+          "title": "Welcome Kagglers!：M Desai关于时钟映射的答复",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/540436"
+        },
+        {
+          "title": "968 Time IDs = 16 Hours?",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/549223"
+        },
+        {
+          "title": "Reverse Engineering the Responders",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/555562"
+        },
+        {
+          "title": "Some domain knowledge",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/548636"
+        },
+        {
+          "title": "Insights from EDA (Day 0 and Feature Importance)",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/542985"
+        },
+        {
+          "title": "第八名作者solution.md",
+          "url": "https://github.com/evgeniavolkova/kagglejanestreet/blob/master/solution.md"
+        },
+        {
+          "title": "ARIMA and Online Learning in Financial Forecasting",
+          "url": "https://serjhenrique.com/arima-and-online-learning-in-financial-forecasting/"
+        },
+        {
+          "title": "官方数据说明",
+          "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/data"
+        }
+      ]
     }
   ],
   "symbols": [
@@ -7185,6 +7294,12 @@ window.RESEARCH_CATALOG = {
   "history": [
     {
       "date": "2026-11-08",
+      "revision": "2026-11-08.6",
+      "title": "搜集社区原始推测，核实主办方时钟答复",
+      "text": "新增C15/E18。读取窗口反推、968点16小时和主办方原帖；区分分钟/市场假说与窗口结构证据，保留作者代码按记录移位与day措辞的差异。"
+    },
+    {
+      "date": "2026-11-08",
       "revision": "2026-11-08.5",
       "title": "新增119点与内部计算边界：增加数据处理解释",
       "text": "新增C14及E16/E17。160天日内形状分组复核，并检查1699天指定边界；发现旧369边界及其前4/20/120步目标变化在后期消失，末尾边界随当天结束后移。尚未定位新增点或识别市场。"
@@ -7252,5 +7367,5 @@ window.RESEARCH_CATALOG = {
       "meaning": "前面找到的规律，拿后面的数据再看看还成立不成立。"
     }
   ],
-  "builtAt": "2026-11-08T16:21:12.140701+08:00"
+  "builtAt": "2026-11-08T17:20:18.134528+08:00"
 };
