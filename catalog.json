@@ -11,8 +11,9 @@
       "repo": "https://github.com/335083474/my-websites-hub/tree/main/xisha-explorer",
       "repoPrivate": false,
       "pagesEnabled": true,
-      "status": "unknown",
-      "http": null,
+      "status": "online",
+      "http": 200,
+      "checkedAt": "2026-11-09T11:30:22Z",
       "links": []
     },
     {
