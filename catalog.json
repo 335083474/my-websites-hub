@@ -3,6 +3,19 @@
   "owner": "335083474",
   "projects": [
     {
+      "id": "xisha-explorer",
+      "title": "西沙奇遇记 · 跟着课文去探险",
+      "category": "游戏与体验",
+      "description": "跟着《富饶的西沙群岛》，在三维海水、珊瑚花园和海岛间探索，收集发现卡、挑战答题、写一张明信片。",
+      "url": "https://335083474.github.io/my-websites-hub/xisha-explorer/",
+      "repo": "https://github.com/335083474/my-websites-hub/tree/main/xisha-explorer",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "unknown",
+      "http": null,
+      "links": []
+    },
+    {
       "id": "jane-street-fields",
       "title": "Jane Street · 字段研究手册",
       "category": "量化研究",
