@@ -498,6 +498,20 @@
       "checkedTitle": "光屿 AI 摄影师 · 让日常，多一点出片"
     },
     {
+      "id": "life-seven-game",
+      "title": "命运之书 · 人生七年",
+      "category": "游戏与体验",
+      "description": "打开三维古书，从七岁抽取天赋开始，翻页、选卡与掷骰，写下自己的单人人生。",
+      "url": "https://335083474.github.io/life-seven-game/book/",
+      "repo": "https://github.com/335083474/life-seven-game",
+      "repoPrivate": false,
+      "pagesEnabled": true,
+      "status": "online",
+      "http": 200,
+      "checkedAt": "2026-11-09T11:43:24.1375925+00:00",
+      "links": []
+    },
+    {
       "id": "scroll-saw-play",
       "title": "细锯工坊 · 手机切割游戏",
       "category": "游戏与体验",
